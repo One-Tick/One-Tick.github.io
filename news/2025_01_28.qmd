@@ -1,0 +1,21 @@
+---
+title: "correcting nonens"
+description: "I hereby declare that the site for news will work! again!"
+date: 2025-01-28
+categories: ["test"]
+---
+
+Of course I will not let you check all these facts so here is an corrected list of the facts presented before:
+
+1.  Octopuses can edit their own genes on the fly.
+2.  Bananas contain radiation, but not enough to make you glow in the dark.
+3.  The human body has more bacterial cells than human ones.
+4.  Saturn would float in water if you had a big enough bathtub.
+5.  Water is not dry at the molecular level—this was nonsense.
+6.  Wombat poop is cube-shaped. Scientists think it helps prevent rolling.
+7.  The Moon is moving away from Earth by 4 cm every year.
+8.  Spiders can taste with their legs, but there’s no evidence they hate sugar.
+9.  Sloths can hold their breath longer than dolphins—up to 40 minutes!
+10. There’s a planet (HD 189733b) where it rains molten glass sideways at 7,000 km/h.
+
+![](../Logos/cute1.jpg)

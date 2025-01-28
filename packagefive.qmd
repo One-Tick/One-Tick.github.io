@@ -1,0 +1,14 @@
+---
+title: "Work package 5. Dissemination and public health awareness"
+format: html
+css: styles.css
+output: html_document
+---
+
+The rise in tick-borne diseases, combined with insufficient awareness campaigns, has contributed to the spread of misinformation on this topic. Some organizations, such as ILADS, exploit this lack of understanding, harming public health through propagating seemingly merit-based guidelines. ILADS protocol could result in drug overdosing and delayed diagnosis of real underlying diseases, such as cancer or autoimmune diseases, limiting the patient's chance to survive. However, its effects permeate society by increasing the environment for developing antibiotic-resistant bacterial strains. Additionally, anti-vaccine activism (or any other resistance to immunization efforts) hinders efforts to control preventable tick-borne diseases, such as tick-borne encephalitis. Therefore, this work package will facilitate the development of a promotional strategy to disseminate the results of this grant proposal and share best practices for treating tick-borne diseases despite the presence of non-evidence-based resources and active propaganda from groups like ILADS. 
+
+## Deliverables:
+
+- Public awareness campaign toolkit.
+- Guidelines and best practices report on diagnosing, treating, and managing tick-borne diseases addressed to healthcare providers and professionals.
+- Promotion of the project results.

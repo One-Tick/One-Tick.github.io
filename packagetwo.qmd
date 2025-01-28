@@ -1,0 +1,14 @@
+---
+title: "Work package 2. The impact of the interaction between tick, host and pathogens on disease occurrence through a tick-specific approach"
+format: html
+css: styles.css
+output: html_document
+---
+
+Tick species differ in their ability to transmit pathogens, a characteristic known as vector competence. In this study, we aim to explore the interactions among ticks, their hosts, and the pathogens they carry to understand better the mechanisms involved in pathogen transmission and subsequent disease occurrence. We will use this information to identify the tick species that pose the most significant risk to humans and animals. By combining these findings with the results from Work Package 1, we hope to develop a model for assessing the risk of disease transmission based on geographical location.
+
+## Deliverables:
+
+-   Database cataloging European tick species, their vector competence, host preferences, and geographical distribution
+-   Machine learning model for assessing the risk of tick bites and following disease occurrence using data on human exposure and tick abundance predictions.
+-   Guidelines for tick control strategy.

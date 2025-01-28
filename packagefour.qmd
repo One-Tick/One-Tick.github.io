@@ -1,0 +1,15 @@
+---
+title: "Work package 4. Prediction of survival rate and sequelae of tick-borne diseases"
+format: html
+css: styles.css
+output: html_document
+---
+
+
+This work package will involve developing standardized forms to capture patients' clinical features and responses to the treatment. Using the collected data (anamnesis, demographic data, clinical presentation, basic laboratory examinations from blood and cerebrospinal fluid), we will construct statistical models to predict survival outcomes and the probability of experiencing long-term complications resulting from these diseases. The models could be later extended with the omics data obtained in other studies and lead to predictive models to assess survival rates and the likelihood of long-term complications associated with tick-borne diseases. Moreover, this work package will lead to the symptom database that would help identify sequelae of tick-borne diseases, which will be crucial in the field that is still symptom-based and lacks good laboratory diagnostics.
+
+## Deliverables:
+
+- Explainable machine learning models for survival rate and sequelae prediction.
+- Comprehensive software dedicated to clinicians (human and veterinarian) incorporating models from deliverable 1.
+- Symptom database.

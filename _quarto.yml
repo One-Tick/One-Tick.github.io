@@ -1,0 +1,44 @@
+project:
+  type: website
+
+website:
+  navbar:
+    logo: Logo.png
+    left:
+      - text: Participants
+        menu:
+        - text: Consortium
+          href: consortium.qmd
+      - text: MSCA Staff Exchanges
+        href: MSCA.qmd
+      - text: Goals
+        menu:
+          - text: Overview
+            href: overview.qmd
+          - text: Work Package 1
+            href: packageone.qmd
+          - text: Work Package 2
+            href: packagetwo.qmd
+          - text: Work Package 3
+            href: packagethree.qmd
+          - text: Work Package 4
+            href: packagefour.qmd
+          - text: Work Package 5
+            href: packagefive.qmd
+      - text: News
+        href: news.qmd
+      - text: Events
+        href: events.qmd
+          
+          
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    navigation: 
+      breadcrumps: true
+      page-navigation: true
+
+editor: source
+

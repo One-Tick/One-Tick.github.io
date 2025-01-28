@@ -1,0 +1,15 @@
+---
+title: "Work package 1. Ticks in urban and peri-urban areas in response to climate change"
+format: html
+css: styles.css
+output: html_document
+---
+
+Work package 1 explores the dynamic interplay between climate change, urbanization, and tick ecology, focusing on the emergence and distribution of zoonotic risks in urban and peri-urban landscapes. We aim to assess how ticks adapt to human-dominated ecosystems by analyzing their presence in diverse urban and peri-urban environments like house gardens, playgrounds or public parks. We will use sampling techniques to compare tick abundance and species diversity across these environments, identify pathogens of tick-borne diseases, and assess potential cross-zone transmission pathways. To make this analysis more robust, we will consider cities within cities in different climate ranges. This will foster a deeper understanding of urban microclimates as incubators for biodiversity shifts under climate pressure. Moreover, this interdisciplinary and globally connected approach will generate actionable insights for public health and urban resilience strategies.
+
+## Deliverables: 
+
+- A comprehensive database and map of tick distribution in urban and peri-urban zones, highlighting hotspots of tick abundance and possible transmission between them. 
+- Relationships models between urbanization, climate change, and tick diversity. 
+- Identification of zoonotic pathogens in urban ticks and assessment of public health risks.
+- Recommendations for urban planning and public health policies to mitigate tick-borne disease risks.

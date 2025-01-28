@@ -1,0 +1,14 @@
+---
+title: "Work package 3. Identifying potential new drug and serological test targets by re-analysis of tick omic data"
+format: html
+css: styles.css
+output: html_document
+---
+
+Biomarkers utilized in serological assays do not provide definitive information regarding disease activity, such as in the case of Lyme disease. Furthermore, they fail to identify patients who will experience post-treatment symptoms. A robust set of new biomarkers could help address the underdiagnosis and overdiagnosis of tick-borne diseases. Therefore, this initiative focuses on identifying new biomarkers that can specify particular tick-borne diseases and their sequelae through an omics approach by re-analyzing existing omics datasets. This will lead to biomarkers in potential cases TBE who developed sequelae or PTLDS (Post-Treatment Lyme Disease Syndrome). However, although these two diseases will be the main focus of this work package, we plan also to improve diagnostics and reporting of neglected tick-borne diseases, including anaplasmosis and rickettsioses. Hence, this work package will finally result in the holistic point-of-care panel for diagnosing tick-borne diseases.
+
+## Deliverables:
+
+-   Re-analysis of omics data (genomics, metagenomics, transcriptomics, proteomics, metaproteomics, metabolomics, lipidomics) of proper patient cohorts.
+-   Candidate biomarker screening.
+-   Omics-based diagnostic point-of-care panel.

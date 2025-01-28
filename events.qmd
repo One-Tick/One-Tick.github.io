@@ -1,0 +1,6 @@
+---
+title: "Events"
+format: html
+---
+
+<img src="Logos/placeholder2.jpg" alt="I am an even better placeholder then the other one!" />
