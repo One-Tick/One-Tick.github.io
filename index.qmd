@@ -55,6 +55,10 @@ Please click the logo of the institution to get to their page. </p>
   <a href="https://www.riojasalud.es/" target="_blank" rel="noopener noreferrer" aria-label="Visit Rioja Salud website">
     <img src="Logos/RS.png" alt="Rioja Salud" />
   </a>
+  </a>
+  <a href="https://www.sh.se/english/sodertorn-university" target="_blank" rel="noopener noreferrer" aria-label="Visit Södertörn University website">
+    <img src="Logos/Sö.png" alt="Södertörn University" />
+  </a>
 </section>
 
 <style>

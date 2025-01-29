@@ -115,6 +115,20 @@ Imagine this beautiful placeholder being a map to show where contributing instit
       <p>Contact person: Information in process</p>
     </div>
   </div>
+  
+    <div class="sponsor-row">
+    <div class="sponsor-image">
+      <img src="Logos/Sö.png" alt="Södertörn University" />
+    </div>
+    <div class="sponsor-info">
+      <a href="https://www.sh.se/english/sodertorn-university" target="_blank" rel="noopener noreferrer">
+        <h2>Södertörn University</h2>
+      </a>
+      <p>Contact person: Information in process</p>
+    </div>
+  </div>
+  
+  
 </div>
 
 <style>
