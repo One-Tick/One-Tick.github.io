@@ -25,15 +25,15 @@ sidebar: false
 
 <p>
 
--   Tick abundance prediction in response to climate change.
+-   Ticks in urban and peri-urban areas in response to climate change
 
--   Exploration of the impact of tick vectors on disease transmission through a tick-specific approach.
+-   The impact of the interaction between tick, host and pathogens on disease occurrence through a tick-specific approach.
 
--   Identification of new biomarkers for tick-borne diseases.
-
--   Disease-specific infection model for veterinary and human medicine.
+-   Detection, symptoms and treatment of tick-borne diseases.
 
 -   Dissemination and public health awareness.
+
+-   OneTick management and knowledge transfer.
 
     </p>
 
