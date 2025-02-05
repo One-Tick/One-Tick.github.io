@@ -29,14 +29,14 @@ website:
         href: news.qmd
       - text: Events
         href: events.qmd
-          
-          
+
+
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
-    navigation: 
+    navigation:
       breadcrumps: true
       page-navigation: true
 
