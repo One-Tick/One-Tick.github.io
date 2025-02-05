@@ -1,14 +1,49 @@
 ---
-title: "Work package 3. Identifying potential new drug and serological test targets by re-analysis of tick omic data"
+title: "Work package 3. Detection, symptoms and treatment of tick-borne diseases"
 format: html
 css: styles.css
 output: html_document
 ---
 
-Biomarkers utilized in serological assays do not provide definitive information regarding disease activity, such as in the case of Lyme disease. Furthermore, they fail to identify patients who will experience post-treatment symptoms. A robust set of new biomarkers could help address the underdiagnosis and overdiagnosis of tick-borne diseases. Therefore, this initiative focuses on identifying new biomarkers that can specify particular tick-borne diseases and their sequelae through an omics approach by re-analyzing existing omics datasets. This will lead to biomarkers in potential cases TBE who developed sequelae or PTLDS (Post-Treatment Lyme Disease Syndrome). However, although these two diseases will be the main focus of this work package, we plan also to improve diagnostics and reporting of neglected tick-borne diseases, including anaplasmosis and rickettsioses. Hence, this work package will finally result in the holistic point-of-care panel for diagnosing tick-borne diseases.
+## Objectivs
 
-## Deliverables:
+In this work package we will reanalyze existing omics datasets to identify candidate biomarkers capable of distinguishing specific tick-borne diseases. During project duration we will standardize patient forms containing symptoms and other health conditions. Data from both tasks will be leveraged during development of machine learning models predicting survival outcomes and the likelihood of long-term complications resulting from these tick-borne diseases. Final result of the WP will be comprehensive symptom database identifying sequelae of tick-borne diseases, addressing critical gaps in a field that remains symptom-driven and lacks robust laboratory diagnostics.
 
--   Re-analysis of omics data (genomics, metagenomics, transcriptomics, proteomics, metaproteomics, metabolomics, lipidomics) of proper patient cohorts.
--   Candidate biomarker screening.
--   Omics-based diagnostic point-of-care panel.
+## Tasks
+
+### Task 3.1 - Re-analysis of curated omics data of proper patient cohorts.
+
+ 3.1.a - Perform systematic re-analysis of existing omics datasets (e.g., transcriptomics, proteomics, and metabolomics) from well-characterized patient cohorts provided by the project beneficiaries and associated organizations.
+ 3.1.b - Focus on identifying disease-specific molecular signatures and addressing gaps in previously underutilized or misinterpreted datasets.
+
+### Task 3.2 - TBE candidate biomarker screening and validation.
+
+ 3.2.a - Using computational and experimental approaches, screen and validate biomarkers associated with TBE patients, particularly those with sequelae.
+ 3.2.b - Conduct cross-validation with independent datasets and explore their relevance across varying disease stages and patient demographics.
+
+### Task 3.3 - Development of unified forms to capture patient data, including anamnesis, demographic data, clinical presentation and treatment responses.
+
+ 3.3.a - Create standardized forms.
+ 3.3.b - Ensure compatibility of forms with existing clinical workflows for ease of use by healthcare providers and with regulations.
+ 3.3.c - Validate forms through pilot testing in both human and veterinary medicine contexts.
+
+### Task 3.4 - Development of statistical models predicting survival rates and long-term complications.
+
+ 3.4.a - Analyze collected clinical data to identify key features influencing survival outcomes and sequelae.
+ 3.4.b - Develop and validate statistical models that predict patient survival and the probability of long-term complications.
+ 3.4.c - Provide clear documentation and visualization tools for the models to aid clinical decision-making.
+
+### Task 3.5 - Re-development of the database to include an overview of symptoms.
+
+ 3.5.a - Expand the existing database from WP1 to include a comprehensive symptom registry linked to clinical outcomes. 
+
+### Task 3.6 - Address gaps in current diagnostic and reporting systems.
+
+ 3.6.a - Identify and address shortcomings in the current diagnostic algorithms for tick-borne diseases, particularly in underrepresented regions.
+ 3.6.b - Recommend improvements to national and international reporting systems, ensuring better surveillance and data harmonization.
+
+## Description of deliverables:
+
+•	D3.1 - List of biomarkers that can aid diagnosis. 
+•	D3.2 - Standardized form for improvement of diagnostic and reporting systems.
+•	D3.3 - Updated symptom database capable to support clinicians (human and veterinarian) in their diagnosis.
