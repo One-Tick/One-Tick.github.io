@@ -34,6 +34,6 @@ WP2 investigates the interactions among ticks, hosts, and pathogens to uncover t
 
 ## Description of deliverables:
 
-•	D2.1 - Database cataloging European tick species, their vector competence, host preferences, and geographical distribution
-•	D2.2 - Machine learning model for assessing the risk of tick bites and following disease occurrence using data on human exposure and tick abundance predictions.
+•	D2.1 - Database cataloging European tick species, their vector competence, host preferences, and geographical distribution  
+•	D2.2 - Machine learning model for assessing the risk of tick bites and following disease occurrence using data on human exposure and tick abundance predictions.  
 •	D2.3 - Guidelines for tick control strategy.

@@ -25,8 +25,8 @@ The OneTick management work package ensures effective coordination and smooth im
 
 ## Description of deliverables:
 
-•	D5.1 - Data management plan and its updates.
-•	D5.2 - Periodic progress reports.
-•	D5.3 - Final project report summarizing outcomes.
-•	D5.4 - Secondment reports.
+•	D5.1 - Data management plan and its updates.  
+•	D5.2 - Periodic progress reports.  
+•	D5.3 - Final project report summarizing outcomes.  
+•	D5.4 - Secondment reports.  
 •	D5.5 - OneTick consortium meetings reports.

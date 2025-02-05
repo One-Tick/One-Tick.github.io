@@ -44,6 +44,6 @@ In this work package we will reanalyze existing omics datasets to identify candi
 
 ## Description of deliverables:
 
-•	D3.1 - List of biomarkers that can aid diagnosis. 
-•	D3.2 - Standardized form for improvement of diagnostic and reporting systems.
+•	D3.1 - List of biomarkers that can aid diagnosis.   
+•	D3.2 - Standardized form for improvement of diagnostic and reporting systems.  
 •	D3.3 - Updated symptom database capable to support clinicians (human and veterinarian) in their diagnosis.

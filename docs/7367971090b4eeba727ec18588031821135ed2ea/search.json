@@ -25,7 +25,7 @@
     "href": "packagetwo.html#description-of-deliverables",
     "title": "Work package 2. The impact of the interaction between tick, host and pathogens on disease occurrence through a tick-specific approach",
     "section": "Description of deliverables:",
-    "text": "Description of deliverables:\n• D2.1 - Database cataloging European tick species, their vector competence, host preferences, and geographical distribution • D2.2 - Machine learning model for assessing the risk of tick bites and following disease occurrence using data on human exposure and tick abundance predictions. • D2.3 - Guidelines for tick control strategy."
+    "text": "Description of deliverables:\n• D2.1 - Database cataloging European tick species, their vector competence, host preferences, and geographical distribution\n• D2.2 - Machine learning model for assessing the risk of tick bites and following disease occurrence using data on human exposure and tick abundance predictions.\n• D2.3 - Guidelines for tick control strategy."
   },
   {
     "objectID": "packageone.html",
@@ -53,7 +53,7 @@
     "href": "packageone.html#description-of-deliverables",
     "title": "Work package 1. Ticks in urban and peri-urban areas in response to climate change",
     "section": "Description of deliverables:",
-    "text": "Description of deliverables:\n• D1.1 - A detailed database and dynamic map illustrating temporal changes in tick distribution across urban and peri-urban areas in selected cities. • D1.2 - Identification of zoonotic pathogens in urban ticks and assessment of public health risks. • D1.3 - Modeling the relationships between tick abundance, disease risks, urbanization, host availability, and environmental conditions. • D1.4 - Recommendations for urban planning and public health policies to mitigate tick-borne disease risks. • D1.5 - Development of unified protocol for tick collection and reporting."
+    "text": "Description of deliverables:\n• D1.1 - A detailed database and dynamic map illustrating temporal changes in tick distribution across urban and peri-urban areas in selected cities.\n• D1.2 - Identification of zoonotic pathogens in urban ticks and assessment of public health risks.\n• D1.3 - Modeling the relationships between tick abundance, disease risks, urbanization, host availability, and environmental conditions.\n• D1.4 - Recommendations for urban planning and public health policies to mitigate tick-borne disease risks.\n• D1.5 - Development of unified protocol for tick collection and reporting."
   },
   {
     "objectID": "packagefive.html",
@@ -81,7 +81,7 @@
     "href": "packagefive.html#description-of-deliverables",
     "title": "Work package 5. OneTick management and knowledge transfer",
     "section": "Description of deliverables:",
-    "text": "Description of deliverables:\n• D5.1 - Data management plan and its updates. • D5.2 - Periodic progress reports. • D5.3 - Final project report summarizing outcomes. • D5.4 - Secondment reports. • D5.5 - OneTick consortium meetings reports."
+    "text": "Description of deliverables:\n• D5.1 - Data management plan and its updates.\n• D5.2 - Periodic progress reports.\n• D5.3 - Final project report summarizing outcomes.\n• D5.4 - Secondment reports.\n• D5.5 - OneTick consortium meetings reports."
   },
   {
     "objectID": "news.html",
@@ -165,7 +165,7 @@
     "href": "packagefour.html#description-of-deliverables",
     "title": "Work package 4. Dissemination and public health awareness",
     "section": "Description of deliverables:",
-    "text": "Description of deliverables:\n• D4.1 - Guidelines and best practices report on diagnosing, treating, and managing tick-borne diseases addressed to healthcare providers and professionals. • D4.2 - Promotion of the project results on conferences, seminars, TV presentations and in the form of actively update project website and social media."
+    "text": "Description of deliverables:\n• D4.1 - Guidelines and best practices report on diagnosing, treating, and managing tick-borne diseases addressed to healthcare providers and professionals.\n• D4.2 - Promotion of the project results on conferences, seminars, TV presentations and in the form of actively update project website and social media."
   },
   {
     "objectID": "packagethree.html",
@@ -193,6 +193,6 @@
     "href": "packagethree.html#description-of-deliverables",
     "title": "Work package 3. Detection, symptoms and treatment of tick-borne diseases",
     "section": "Description of deliverables:",
-    "text": "Description of deliverables:\n• D3.1 - List of biomarkers that can aid diagnosis. • D3.2 - Standardized form for improvement of diagnostic and reporting systems. • D3.3 - Updated symptom database capable to support clinicians (human and veterinarian) in their diagnosis."
+    "text": "Description of deliverables:\n• D3.1 - List of biomarkers that can aid diagnosis.\n• D3.2 - Standardized form for improvement of diagnostic and reporting systems.\n• D3.3 - Updated symptom database capable to support clinicians (human and veterinarian) in their diagnosis."
   }
 ]
