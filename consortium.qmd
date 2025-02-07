@@ -2,9 +2,7 @@
 title: "Consortium"
 ---
 
-Imagine this beautiful placeholder being a map to show where contributing institutes are located.
-
-<img src="Logos/placeholder.jpg" alt="This is the bestes placeholder ever existing!"/>
+More information, including a map showing the locations of the contributing institutes, will be added shortly. We apologize for any inconvenience.  
 
 ```{=html}
 <div class="sponsor-table">
