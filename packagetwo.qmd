@@ -17,20 +17,20 @@ WP2 investigates the interactions among ticks, hosts, and pathogens to uncover t
 
 ### Task 2.2 - Tick collection and laboratory analysis
 
- 2.2.a - Collect tick samples across geographically diverse European urban locations.
- 2.2.b - Perform laboratory analyses to identify tick species, assess their vector competence, and detect pathogens.
+ 2.2.a - Collect tick samples across geographically diverse European urban locations.  
+ 2.2.b - Perform laboratory analyses to identify tick species, assess their vector competence, and detect pathogens.  
  2.2.c - Use molecular tools to characterize pathogen-host interactions and quantify pathogen infectivity.
 
 ### Task 2.3 - Pathogen-host interaction analysis
 
- 2.3.a - Study interactions between tick-borne pathogens and their hosts to identify factors influencing transmission dynamics.
- 2.3.b - Explore host immune responses to tick-borne pathogens to understand the impact on disease occurrence.
- 2.3.c - Identify specific conditions under which ticks most efficiently transmit pathogens.
+ 2.3.a - Study interactions between tick-borne pathogens and their hosts to identify factors influencing transmission dynamics.  
+ 2.3.b - Explore host immune responses to tick-borne pathogens to understand the impact on disease occurrence.  
+ 2.3.c - Identify specific conditions under which ticks most efficiently transmit pathogens.  
 
 ### Task 2.4 - Database update
 
- 2.4.a - Develop and maintain a centralized database cataloging European tick species, their vector competence, host preferences, and urban geographical distribution.
- 2.4.b - Incorporate data from laboratory and field studies to ensure the database remains up-to-date and comprehensive.
+ 2.4.a - Develop and maintain a centralized database cataloging European tick species, their vector competence, host preferences, and urban geographical distribution.  
+ 2.4.b - Incorporate data from laboratory and field studies to ensure the database remains up-to-date and comprehensive.  
 
 ## Description of deliverables:
 

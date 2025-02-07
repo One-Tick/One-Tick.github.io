@@ -13,7 +13,7 @@ Work package 1 investigates the relationship between climate change, urbanizatio
 
 ### Task 1.1 - Standardization of the tick collection protocols
 
- 1.1.a - Develop and implement standardized tick collection protocols, ensuring consistent and comparable data across all study sites.
+ 1.1.a - Develop and implement standardized tick collection protocols, ensuring consistent and comparable data across all study sites.  
  1.1.b - Train field teams on protocol adherence and incorporate quality control measures to minimize measurement variability.
 
 ### Task 1.2 - Data collection and field surveys
