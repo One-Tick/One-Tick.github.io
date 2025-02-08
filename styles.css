@@ -13,6 +13,13 @@
   z-index: -1; /* Place image behind the content */
 }
 
+
+/* Fix hero image on mobile */
+@media (max-width: 600px) {
+  .index-page .hero-image {
+    background-attachment: scroll;
+    background-size: cover;
+  }
 }
 
 /* Text boxes */
@@ -31,6 +38,16 @@
   z-index: 1; /* Ensure text boxes appear above the image */
 }
 
+
+/* Adjust text-box for mobile */
+@media (max-width: 600px) {
+  .index-page .text-box {
+    max-width: 90%; /* Make text-box fit smaller screens */
+    padding: 15px;
+    font-size: 1em; /* Reduce font size for better readability */
+  }
+}
+
 /* Adjust first text box to have space from the top */
 .index-page .text-box {
   margin-top: 200px; /* Add space to the top of the page */
@@ -39,6 +56,15 @@
 
 .index-page .text-box + .text-box {
   margin-top: 400px;
+}
+
+@media (max-width: 600px) {
+  .index-page .text-box:first-of-type {
+    margin-top: 100px; /* Reduce spacing for mobile */
+  }
+  .index-page .text-box + .text-box {
+    margin-top: 200px;
+  }
 }
 
 /* Navbar and overlay styles (if needed, they will apply across all pages) */
