@@ -98,6 +98,14 @@ Click on an institution's logo to visit its website.
       gap: 10px;
     }
   }
+  
+  @media (max-width: 600px) {
+  .sponsors img {
+    height: auto;  /* Erhält das Seitenverhältnis */
+    max-width: 80px; /* Begrenzt die Breite der Logos für kleine Bildschirme */
+  }
+}
+
 </style>
 
 ```
