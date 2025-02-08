@@ -13,6 +13,14 @@
   z-index: -1; /* Place image behind the content */
 }
 
+/* Fix für Mobilgeräte */
+@media (max-width: 768px) {
+  .index-page .hero-image {
+    height: 100vh; /* Immer gesamte Höhe nutzen */
+    background-attachment: scroll; /* Kein Fixieren auf Mobile */
+  }
+}
+
 /* Text boxes */
 .index-page .text-box {
   margin: 0 auto; /* Center horizontally */
@@ -25,8 +33,16 @@
   font-size: 1.2em;
   line-height: 1.6;
   position: relative;
-  transform: translateX(+15%);
   z-index: 1; /* Ensure text boxes appear above the image */
+}
+
+/* Text auf Mobile anpassen */
+@media (max-width: 768px) {
+  .index-page .text-box {
+    font-size: 1em;
+    padding: 15px;
+    max-width: 90%;
+  }
 }
 
 /* Adjust first text box to have space from the top */
