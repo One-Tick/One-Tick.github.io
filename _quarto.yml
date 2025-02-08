@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  favicon: Logo.png
+  favicon: Logos/workpackage1.png
   open-graph: true
   twitter-card: true
 

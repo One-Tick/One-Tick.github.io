@@ -17,8 +17,11 @@
 @media (max-width: 768px) {
   .index-page .hero-image {
     background-image: url("Logos/Tickphone.jpg");
-    height: 100vh; /* Immer gesamte Höhe nutzen */
-    background-attachment: scroll; /* Kein Fixieren auf Mobile */
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh; 
+    background-attachment: fixed; 
   }
 }
 
