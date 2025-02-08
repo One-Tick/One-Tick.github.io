@@ -16,7 +16,7 @@ More information, including a map showing the locations of the contributing inst
       </a>
       <p>Contact person: Michał Burdukiewicz</p>
       <p>Email Adress: michal.burdukiewicz@umb.edu.pl</p>
-      <p>Website: [biogenies.info](biogenies.info)</p>
+      <p>Website: <a href="https://biogenies.info/">biogenies.info</a></p>
     </div>
   </div>
 
