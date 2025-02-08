@@ -33,6 +33,7 @@
   font-size: 1.2em;
   line-height: 1.6;
   position: relative;
+  transform: translateX(+15%);
   z-index: 1; /* Ensure text boxes appear above the image */
 }
 
@@ -42,6 +43,7 @@
     font-size: 1em;
     padding: 15px;
     max-width: 90%;
+    transform: translateX(+0%);
   }
 }
 

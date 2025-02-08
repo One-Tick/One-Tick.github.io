@@ -14,9 +14,10 @@ More information, including a map showing the locations of the contributing inst
       <a href="https://www.umb.edu.pl/en/" target="_blank" rel="noopener noreferrer">
         <h2>Medical University of Bialystok</h2>
       </a>
-      <p>Contact person: <a href="https://biogenies.info/">Michał Burdukiewicz</a></p>
+      <p>Contact person: Michał Burdukiewicz</p>
       <p>Email Adress: michal.burdukiewicz@umb.edu.pl</p>
-      </div>
+      <p>Website: <a href="https://biogenies.info/">Click here</a></p>
+    </div>
   </div>
 
   <div class="sponsor-row">
@@ -27,8 +28,9 @@ More information, including a map showing the locations of the contributing inst
       <a href="https://www.rigshospitalet.dk/english/Pages/default.aspx" target="_blank" rel="noopener noreferrer">
         <h2>Rigshospitalet</h2>
       </a>
-      <p>Contact person: <a href="https://www.rigshospitalet.dk/">Anne-Mette Lebech</a></p>
+      <p>Contact person: Anne-Mette Lebech</p>
       <p>Email Adress: Anne-Mette.Lebech@regionh.dk</p>
+      <p>Website: <a href="https://www.rigshospitalet.dk/">Click here</a></p>
     </div>
   </div>
 
@@ -40,8 +42,9 @@ More information, including a map showing the locations of the contributing inst
       <a href="https://www.fu-berlin.de/" target="_blank" rel="noopener noreferrer">
         <h2>Freie Universität Berlin</h2>
       </a>
-      <p>Contact person: <a href="https://www.vetmed.fu-berlin.de/einrichtungen/zfi/we13/index.html">Ard Nijhof</a></p>
+      <p>Contact person: Ard Nijhof</p>
       <p>Email Adress: ard.nijhof@fu-berlin.de</p>
+      <p>Website: <a href="https://www.vetmed.fu-berlin.de/einrichtungen/zfi/we13/index.html">Click here</a></p>
     </div>
   </div>
 
@@ -53,8 +56,9 @@ More information, including a map showing the locations of the contributing inst
       <a href="https://www.bc.cas.cz/" target="_blank" rel="noopener noreferrer">
         <h2>Biology Centre of the Czech Academy of Sciences</h2>
       </a>
-      <p>Contact person: <a href="https://www.paru.cas.cz/en/staff/profile/48-vaclavhonig/">Václav Hönig</a></p>
+      <p>Contact person: Václav Hönig</p>
       <p>Email Adress: honig@paru.cas.cz</p>
+      <p>Website: <a href="https://www.paru.cas.cz/en/staff/profile/48-vaclavhonig/">Click here</a></p>
     </div>
   </div>
 
@@ -66,8 +70,9 @@ More information, including a map showing the locations of the contributing inst
       <a href="https://www.zecken-radar.de/" target="_blank" rel="noopener noreferrer">
         <h2>Zecken Radar</h2>
       </a>
-      <p>Contact person: <a href="https://www.zecken-radar.de/">Olaf Kahl</a></p>
+      <p>Contact person: Olaf Kahl</p>
       <p>Email Adress: kahl@tick-radar.de</p>
+      <p>Website: <a href="https://www.zecken-radar.de/">Click here</a></p>
     </div>
   </div>
 
@@ -79,8 +84,9 @@ More information, including a map showing the locations of the contributing inst
       <a href="https://www.usamvcluj.ro/" target="_blank" rel="noopener noreferrer">
         <h2>USAMV Cluj</h2>
       </a>
-      <p>Contact person: <a href="https://www.mihalca.org/">Andrei Daniel Mihalca</a></p>
+      <p>Contact person: Andrei Daniel Mihalca</p>
       <p>Email Adress: amihalca@usamvcluj.ro</p>
+      <p>Website: <a href="https://www.mihalca.org/">Click here</a></p>
     </div>
   </div>
 
@@ -93,8 +99,9 @@ More information, including a map showing the locations of the contributing inst
       <a href="https://www.sshf.no/" target="_blank" rel="noopener noreferrer">
         <h2>Sørlandet Sykehus</h2>
       </a>
-      <p>Contact person: <a href="https://flattsenteret.no/">Randi Eikeland</a></p>
+      <p>Contact person: Randi Eikeland</p>
       <p>Email Adress: randi.eikeland@sshf.no</p>
+      <p>Website: <a href="https://flattsenteret.no/">Click here</a></p>
     </div>
   </div>
 
@@ -106,8 +113,9 @@ More information, including a map showing the locations of the contributing inst
       <a href="https://www.rjl.se/lanssjukhusetryhov" target="_blank" rel="noopener noreferrer">
         <h2>Länssjukhuset Ryhov</h2>
       </a>
-      <p>Contact person: <a href="https://www.rjl.se/">Per-Eric Lindgren</a></p>
+      <p>Contact person: Per-Eric Lindgren</p>
       <p>Email Adress: per-eric.lindgren@liu.se</p>
+      <p>Website: <a href="https://www.rjl.se/">Click here</a></p>
     </div>
   </div>
 
@@ -119,8 +127,9 @@ More information, including a map showing the locations of the contributing inst
       <a href="https://www.riojasalud.es/" target="_blank" rel="noopener noreferrer">
         <h2>Rioja Salud</h2>
       </a>
-      <p>Contact person: <a href="https://www.cibir.es/en/research-groups/infectious-diseases/arthropod-vectors">José A. Oteo</a></p>
+      <p>Contact person: José A. Oteo</p>
       <p>Email Adress: jaoteo@riojasalud.es</p>
+      <p>Website: <a href="https://www.cibir.es/en/research-groups/infectious-diseases/arthropod-vectors">Click here</a></p>
     </div>
   </div>
   
@@ -132,8 +141,9 @@ More information, including a map showing the locations of the contributing inst
       <a href="https://www.sh.se/english/sodertorn-university" target="_blank" rel="noopener noreferrer">
         <h2>Södertörn University</h2>
       </a>
-      <p>Contact person: <a href="https://www.sh.se/english/sodertorn-university/research/our-research/research-database/research-projects/human---environment-interactions-and-the-epidemiological-periurban-landscape-of-tick---borne-diseases">Patrik Dinnetz</a></p>
+      <p>Contact person: Patrik Dinnetz</p>
       <p>Email Adress: Patrik.dinnetz@sh.se</p>
+      <p>Website: <a href="https://www.sh.se/english/sodertorn-university/research/our-research/research-database/research-projects/human---environment-interactions-and-the-epidemiological-periurban-landscape-of-tick---borne-diseases">Click here</a></p>
     </div>
   </div>
   
@@ -145,8 +155,9 @@ More information, including a map showing the locations of the contributing inst
       <a href="https://www.pfizer.at/" target="_blank" rel="noopener noreferrer">
         <h2>Pfizer</h2>
       </a>
-      <p>Contact person: <a href="https://www.pfizer.at/">Andreas Pilz</a></p>
+      <p>Contact person: Andreas Pilz</p>
       <p>Email Adress: Andreas.Pilz@Pfizer.com</p>
+      <p>Website: <a href="https://www.pfizer.at/">Click here</a></p>
     </div>
   </div>
 
@@ -158,8 +169,9 @@ More information, including a map showing the locations of the contributing inst
       <a href="https://www.rivm.nl/en" target="_blank" rel="noopener noreferrer">
         <h2>National Institute for Public Health and the Environment</h2>
       </a>
-      <p>Contact person: <a href="https://www.rivm.nl/en">Hein Sprong</a></p>
+      <p>Contact person: Hein Sprong</p>
       <p>Email Adress: Hein.Sprong@RIVM.nl</p>
+      <p>Website: <a href="https://www.rivm.nl/en">Click here</a></p>
     </div>
   </div>
   

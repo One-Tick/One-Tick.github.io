@@ -2,6 +2,10 @@ project:
   type: website
 
 website:
+  favicon: Logo.png
+  open-graph: true
+  twitter-card: true
+
   navbar:
     logo: Logo.png
     left:
