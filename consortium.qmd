@@ -14,8 +14,9 @@ More information, including a map showing the locations of the contributing inst
       <a href="https://www.umb.edu.pl/en/" target="_blank" rel="noopener noreferrer">
         <h2>Medical University of Bialystok</h2>
       </a>
-      <p>Contact person: Information in process</p>
-      <p>Email Adress: Information in process</p>
+      <p>Contact person: Michał Burdukiewicz</p>
+      <p>Email Adress: michal.burdukiewicz@umb.edu.pl</p>
+      <p>Website: [biogenies.info](biogenies.info)</p>
     </div>
   </div>
 
