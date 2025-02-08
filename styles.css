@@ -1,3 +1,10 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Verhindert horizontales Scrollen */
+    height: 100%;
+}
+
 /* index page layout:
 /* Create a full-screen background for the index page */
 .index-page .hero-image {
@@ -19,9 +26,8 @@
     background-image: url("Logos/Tickphone.jpg");
     background-size: cover;
     background-position: center;
-    width: 100vw;
-    height: 100vh; 
     background-attachment: fixed; 
+    background-repeat: no-repeat;
   }
 }
 
