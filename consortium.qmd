@@ -71,7 +71,8 @@ More information, including a map showing the locations of the contributing inst
         <h2>Zecken Radar</h2>
       </a>
       <p>Contact person: Olaf Kahl</p>
-      <p>Email Adress: kahl@tick-radar.de</p>Click herezecken-radar.de</a></p>
+      <p>Email Adress: kahl@tick-radar.de</p>
+      <p>Website: <a href="https://www.zecken-radar.de/">Click here</a></p>
     </div>
   </div>
 
