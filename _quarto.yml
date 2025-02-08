@@ -9,8 +9,6 @@ website:
         menu:
         - text: Consortium
           href: consortium.qmd
-      - text: MSCA Staff Exchanges
-        href: MSCA.qmd
       - text: Goals
         menu:
           - text: Overview
