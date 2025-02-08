@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Work Package Overview"
 format: 
   html:
     toc: false  # Disables the table of contents (if used)
@@ -12,7 +12,9 @@ sidebar: false
 ---
 
 ::: manyTicks
+<div></div>
 :::
+
 
 <body class="overview">
 
