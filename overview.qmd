@@ -1,5 +1,5 @@
 ---
-title: "Work Package Overview"
+title: "  "
 format: 
   html:
     toc: false  # Disables the table of contents (if used)
