@@ -5,11 +5,11 @@ css: styles.css
 output: html_document
 ---
 
-## Objectivs
+## 🎯 Objectivs
 
 In this work package we will reanalyze existing omics datasets to identify candidate biomarkers capable of distinguishing specific tick-borne diseases. During project duration we will standardize patient forms containing symptoms and other health conditions. Data from both tasks will be leveraged during development of machine learning models predicting survival outcomes and the likelihood of long-term complications resulting from these tick-borne diseases. Final result of the WP will be comprehensive symptom database identifying sequelae of tick-borne diseases, addressing critical gaps in a field that remains symptom-driven and lacks robust laboratory diagnostics.
 
-## Tasks
+## 🚧 Tasks
 
 ### Task 3.1 - Re-analysis of curated omics data of proper patient cohorts.
 
@@ -42,7 +42,7 @@ In this work package we will reanalyze existing omics datasets to identify candi
  3.6.a - Identify and address shortcomings in the current diagnostic algorithms for tick-borne diseases, particularly in underrepresented regions.  
  3.6.b - Recommend improvements to national and international reporting systems, ensuring better surveillance and data harmonization.  
 
-## Description of deliverables:
+## 🚚 Deliverables:
 
 •	D3.1 - List of biomarkers that can aid diagnosis.   
 •	D3.2 - Standardized form for improvement of diagnostic and reporting systems.  

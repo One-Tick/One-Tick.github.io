@@ -5,11 +5,11 @@ css: styles.css
 output: html_document
 ---
 
-## Objectivs
+## 🎯 Objectivs
 
 The OneTick management work package ensures effective coordination and smooth implementation of the project. The objectives are to oversee administrative, financial, and scientific progress, ensuring timely delivery of results while fostering collaboration among partners.
 
-## Tasks
+## 🚧 Tasks
 
 ### Task 5.1 - Transparent and efficient project administration, monitoring and  communication
 
@@ -23,7 +23,7 @@ The OneTick management work package ensures effective coordination and smooth im
 
 ### Task 1.1 - Standardization of the tick collection protocols
 
-## Description of deliverables:
+## 🚚 Deliverables:
 
 •	D5.1 - Data management plan and its updates.  
 •	D5.2 - Periodic progress reports.  

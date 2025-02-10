@@ -5,11 +5,11 @@ css: styles.css
 output: html_document
 ---
 
-## Objectivs
+## 🎯 Objectivs
 
 Work package 1 investigates the relationship between climate change, urbanization, and tick ecology, focusing on zoonotic risks in urban and peri-urban areas. We aim to assess how ticks adapt to human-dominated environments by studying their presence in locations such as gardens, playgrounds, and parks. We will use sampling techniques to compare tick abundance and species diversity, identify tick-borne disease pathogens, and explore cross-zone transmission pathways. We will also consider cities within various climate ranges to enhance our understanding of urban microclimates as drivers of biodiversity shifts. This interdisciplinary approach seeks to provide valuable insights into public health and urban resilience strategies.
 
-## Tasks
+## 🚧 Tasks
 
 ### Task 1.1 - Standardization of the tick collection protocols
 
@@ -41,7 +41,7 @@ Work package 1 investigates the relationship between climate change, urbanizatio
  1.6.a - Synthesize findings to identify critical urban planning strategies and public health interventions for mitigating tick-borne disease risks.  
  1.6.b - Provide actionable recommendations tailored to specific city contexts, considering stakeholder input and resource constraints.
 
-## Description of deliverables:
+## 🚚 Deliverables:
 
 •	D1.1 - A detailed database and dynamic map illustrating temporal changes in tick distribution across urban and peri-urban areas in selected cities.  
 •	D1.2 - Identification of zoonotic pathogens in urban ticks and assessment of public health risks.  
