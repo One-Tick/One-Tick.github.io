@@ -112,7 +112,7 @@ Click on an institution's logo to visit its website.
 :::
 
 ::: text-box
-![]("Logos/plakat.png")
+![](Logos/plakat.png)
 
 <h1>Michał Burdukiewicz, Jarosław Chilimoniuk, and Anna Moniuszko-Malinowska receive
 funding in the PARP Eurogrant Competition</h1>
@@ -140,3 +140,4 @@ The project is administratively supported by the Development and Evaluation Depa
 MUB.
 </p>
 :::
+
