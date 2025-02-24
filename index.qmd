@@ -111,3 +111,32 @@ Click on an institution's logo to visit its website.
 ```
 :::
 
+::: text-box
+![]("Logos/plakat.png")
+
+<h1>Michał Burdukiewicz, Jarosław Chilimoniuk, and Anna Moniuszko-Malinowska receive
+funding in the PARP Eurogrant Competition</h1>
+
+<p>A project led by Dr. Michał Burdukiewicz and Dr. Jarosław Chilimoniuk from the
+Bioinformatics and Multi-Omics Analysis Laboratory at the Clinical Research Centre, along
+with Professor Anna Moniuszko-Malinowska from the Department of Infectious Diseases
+and Neuroinfections at the Medical University of Białystok (MUB), has been selected for
+funding by the Polish Agency for Enterprise Development (PARP) under the FENG 02.12
+"Eurogrant Grants - Call for Research Projects."  
+This funding supports projects with high innovative and research potential.  
+The aim of this initiative by PARP is to enhance the innovation and international presence of
+Polish research organizations by increasing their involvement in EU programs managed
+centrally, particularly Horizon Europe.  
+The project titled OneTick, submitted by Michał Burdukiewicz, Anna Moniuszko-Malinowska,
+and Jarosław Chilimoniuk under the Marie Skłodowska-Curie Actions Staff Exchanges
+programme, seeks to establish a consortium focused on developing new diagnostic methods
+for tick-borne diseases. The innovation of the project lies in its adoption of the One Health
+approach, which integrates human, animal, and environmental health.  
+The funding awarded will help the team prepare their proposal for the Marie Skłodowska-
+Curie Actions Staff Exchanges programme and create informational materials for potential
+consortium partners. This will significantly increase their opportunities for international
+research collaboration.  
+The project is administratively supported by the Development and Evaluation Department at
+MUB.
+</p>
+:::
