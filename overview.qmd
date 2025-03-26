@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "  "
 format: 
   html:
     toc: false  # Disables the table of contents (if used)
@@ -12,7 +12,9 @@ sidebar: false
 ---
 
 ::: manyTicks
+<div></div>
 :::
+
 
 <body class="overview">
 
@@ -25,15 +27,15 @@ sidebar: false
 
 <p>
 
--   Tick abundance prediction in response to climate change.
+-   Ticks in urban and peri-urban areas in response to climate change
 
--   Exploration of the impact of tick vectors on disease transmission through a tick-specific approach.
+-   The impact of the interaction between tick, host and pathogens on disease occurrence through a tick-specific approach.
 
--   Identification of new biomarkers for tick-borne diseases.
-
--   Disease-specific infection model for veterinary and human medicine.
+-   Detection, symptoms and treatment of tick-borne diseases.
 
 -   Dissemination and public health awareness.
+
+-   OneTick management and knowledge transfer.
 
     </p>
 
@@ -137,21 +139,21 @@ sidebar: false
     <div class="workpackage">
       <img src="Logos/workpackage3.png" alt="Work Package 3 Icon">
       <h2>Work Package 3</h2>
-      <p>Identifying potential new drug and serological test targets by re-analysis of tick omic data</p>
+      <p>Detection, symptoms and treatment of tick-borne diseases</p>
       <a href="packagethree.qmd">View Details</a>
     </div>
     <!-- Work Package 4 -->
     <div class="workpackage">
       <img src="Logos/workpackage4.png" alt="Work Package 4 Icon">
       <h2>Work Package 4</h2>
-      <p>Prediction of survival rate and sequelae of tick-borne diseases</p>
+      <p>Dissemination and public health awareness</p>
       <a href="packagefour.qmd">View Details</a>
     </div>
     <!-- Work Package 5 -->
     <div class="workpackage">
       <img src="Logos/workpackage5.png" alt="Work Package 2 Icon">
       <h2>Work Package 5</h2>
-      <p>Dissemination and public health awareness</p>
+      <p>OneTick management and knowledge transfer</p>
       <a href="packagefive.qmd">View Details</a>
     </div>
   </div>

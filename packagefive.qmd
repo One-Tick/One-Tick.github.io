@@ -1,14 +1,32 @@
 ---
-title: "Work package 5. Dissemination and public health awareness"
+title: "Work package 5. OneTick management and knowledge transfer"
 format: html
 css: styles.css
 output: html_document
 ---
 
-The rise in tick-borne diseases, combined with insufficient awareness campaigns, has contributed to the spread of misinformation on this topic. Some organizations, such as ILADS, exploit this lack of understanding, harming public health through propagating seemingly merit-based guidelines. ILADS protocol could result in drug overdosing and delayed diagnosis of real underlying diseases, such as cancer or autoimmune diseases, limiting the patient's chance to survive. However, its effects permeate society by increasing the environment for developing antibiotic-resistant bacterial strains. Additionally, anti-vaccine activism (or any other resistance to immunization efforts) hinders efforts to control preventable tick-borne diseases, such as tick-borne encephalitis. Therefore, this work package will facilitate the development of a promotional strategy to disseminate the results of this grant proposal and share best practices for treating tick-borne diseases despite the presence of non-evidence-based resources and active propaganda from groups like ILADS. 
+## 🎯 Objectivs
 
-## Deliverables:
+The OneTick management work package ensures effective coordination and smooth implementation of the project. The objectives are to oversee administrative, financial, and scientific progress, ensuring timely delivery of results while fostering collaboration among partners.
 
-- Public awareness campaign toolkit.
-- Guidelines and best practices report on diagnosing, treating, and managing tick-borne diseases addressed to healthcare providers and professionals.
-- Promotion of the project results.
+## 🚧 Tasks
+
+### Task 5.1 - Transparent and efficient project administration, monitoring and  communication
+
+### Task 5.2 - Monitoring the project implementation and reporting
+
+### Task 5.3 - Keeping an eye on the project's compliance with ethical and legal standards
+
+### Task 5.5 - Organization of administrative staff secondments
+
+### Task 5.6 - Risk and sustainability management
+
+### Task 1.1 - Standardization of the tick collection protocols
+
+## 🚚 Deliverables:
+
+•	D5.1 - Data management plan and its updates.  
+•	D5.2 - Periodic progress reports.  
+•	D5.3 - Final project report summarizing outcomes.  
+•	D5.4 - Secondment reports.  
+•	D5.5 - OneTick consortium meetings reports.

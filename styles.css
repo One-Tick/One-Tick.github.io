@@ -13,6 +13,17 @@
   z-index: -1; /* Place image behind the content */
 }
 
+/* Fix für Mobilgeräte */
+@media (max-width: 768px) {
+  .index-page .hero-image {
+    background-image: url("Logos/Tickphone.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+  }
+}
+
 /* Text boxes */
 .index-page .text-box {
   margin: 0 auto; /* Center horizontally */
@@ -27,6 +38,16 @@
   position: relative;
   transform: translateX(+15%);
   z-index: 1; /* Ensure text boxes appear above the image */
+}
+
+/* Text auf Mobile anpassen */
+@media (max-width: 768px) {
+  .index-page .text-box {
+    font-size: 1em;
+    padding: 15px;
+    max-width: 90%;
+    transform: translateX(+0%);
+  }
 }
 
 /* Adjust first text box to have space from the top */

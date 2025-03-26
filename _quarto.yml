@@ -2,15 +2,18 @@ project:
   type: website
 
 website:
+  favicon: Logos/favicon.png
+  open-graph: true
+  twitter-card: true
+
   navbar:
     logo: Logo.png
+    hoverable: true
     left:
       - text: Participants
         menu:
         - text: Consortium
           href: consortium.qmd
-      - text: MSCA Staff Exchanges
-        href: MSCA.qmd
       - text: Goals
         menu:
           - text: Overview
