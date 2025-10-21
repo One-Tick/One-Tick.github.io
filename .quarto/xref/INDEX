@@ -73,5 +73,38 @@
   },
   "news/2025_02_05.qmd": {
     "2025_02_05.html": "db85dfc3"
+  },
+  "subsites/consortium.qmd": {
+    "consortium.html": "a9eb915e"
+  },
+  "subsites/events.qmd": {
+    "events.html": "43621a9d"
+  },
+  "subsites/index.qmd": {
+    "index.html": "7de8e796"
+  },
+  "subsites/news.qmd": {
+    "news.html": "2c549746"
+  },
+  "subsites/overview.qmd": {
+    "overview.html": "9966d43f"
+  },
+  "subsites/packagefive.qmd": {
+    "packagefive.html": "0a5f4a3a"
+  },
+  "subsites/packagefour.qmd": {
+    "packagefour.html": "edf0458b"
+  },
+  "subsites/packageone.qmd": {
+    "packageone.html": "e61f4d24"
+  },
+  "subsites/packagethree.qmd": {
+    "packagethree.html": "994b4c4f"
+  },
+  "subsites/packagetwo.qmd": {
+    "packagetwo.html": "45961437"
+  },
+  "subsites/news/2025_02_05.qmd": {
+    "2025_02_05.html": "a455181d"
   }
 }

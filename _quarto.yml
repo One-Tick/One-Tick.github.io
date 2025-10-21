@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  favicon: Logos/favicon.png
+  favicon: data/Logos/favicon.png
   open-graph: true
   twitter-card: true
 
@@ -13,25 +13,25 @@ website:
       - text: Participants
         menu:
         - text: Consortium
-          href: consortium.qmd
+          href: subsites/consortium.qmd
       - text: Goals
         menu:
           - text: Overview
-            href: overview.qmd
+            href: subsites/overview.qmd
           - text: Work Package 1
-            href: packageone.qmd
+            href: subsites/packageone.qmd
           - text: Work Package 2
-            href: packagetwo.qmd
+            href: subsites/packagetwo.qmd
           - text: Work Package 3
-            href: packagethree.qmd
+            href: subsites/packagethree.qmd
           - text: Work Package 4
-            href: packagefour.qmd
+            href: subsites/packagefour.qmd
           - text: Work Package 5
-            href: packagefive.qmd
+            href: subsites/packagefive.qmd
       - text: News
-        href: news.qmd
+        href: subsites/news.qmd
       - text: Events
-        href: events.qmd
+        href: subsites/events.qmd
 
 
 format:
@@ -42,6 +42,7 @@ format:
     navigation:
       breadcrumps: true
       page-navigation: true
+css: styles.css
 
 editor: source
 

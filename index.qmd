@@ -31,43 +31,43 @@ Click on an institution's logo to visit its website.
 <!-- SPONSORS SECTION -->
 <section id="sponsor-logos" class="sponsors">
   <a href="https://www.umb.edu.pl/en/" target="_blank" rel="noopener noreferrer" aria-label="Visit Medical University of Bialystok website">
-    <img src="Logos/MUB.png" alt="Medical University of Bialystok" />
+    <img src="data/Logos/MUB.png" alt="Medical University of Bialystok" />
   </a>
   <a href="https://www.rigshospitalet.dk/english/Pages/default.aspx" target="_blank" rel="noopener noreferrer" aria-label="Visit Rigshospitalet website">
-    <img src="Logos/RH.png" alt="Rigshospitalet" />
+    <img src="data/Logos/RH.png" alt="Rigshospitalet" />
   </a>
   <a href="https://www.fu-berlin.de/" target="_blank" rel="noopener noreferrer" aria-label="Visit Freie Universität Berlin website">
-    <img src="Logos/FUB.png" alt="Freie Universität Berlin" />
+    <img src="data/Logos/FUB.png" alt="Freie Universität Berlin" />
   </a>
   <a href="https://www.bc.cas.cz/" target="_blank" rel="noopener noreferrer" aria-label="Visit Biological Centre website">
-    <img src="Logos/BC.png" alt="Biological Centre" />
+    <img src="data/Logos/BC.png" alt="Biological Centre" />
   </a>
   </a>
   <a href="https://www.zecken-radar.de/" target="_blank" rel="noopener noreferrer" aria-label="Visit Zecken Radar website">
-    <img src="Logos/ZR.png" alt="Zecken Radar" />
+    <img src="data/Logos/ZR.png" alt="Zecken Radar" />
   </a>
   <a href="https://www.usamvcluj.ro/" target="_blank" rel="noopener noreferrer" aria-label="Visit USAMV Cluj website">
-    <img src="Logos/USAMV.gif" alt="USAMV Cluj" />
+    <img src="data/Logos/USAMV.gif" alt="USAMV Cluj" />
   <a href="https://www.sshf.no/" target="_blank" rel="noopener noreferrer" aria-label="Visit Sørlandet Sykehus website">
-    <img src="Logos/SoSy.png" alt="Sørlandet Sykehus" />
+    <img src="data/Logos/SoSy.png" alt="Sørlandet Sykehus" />
   </a>
   <a href="https://www.rjl.se/lanssjukhusetryhov" target="_blank" rel="noopener noreferrer" aria-label="Visit Länssjukhuset Ryhov website">
-    <img src="Logos/LR.png" alt="Länssjukhuset Ryhov" />
+    <img src="data/Logos/LR.png" alt="Länssjukhuset Ryhov" />
   </a>
   <a href="https://www.riojasalud.es/" target="_blank" rel="noopener noreferrer" aria-label="Visit Rioja Salud website">
-    <img src="Logos/RS.png" alt="Rioja Salud" />
+    <img src="data/Logos/RS.png" alt="Rioja Salud" />
   </a>
   </a>
   <a href="https://www.sh.se/english/sodertorn-university" target="_blank" rel="noopener noreferrer" aria-label="Visit Södertörn University website">
-    <img src="Logos/Sö.png" alt="Södertörn University" />
+    <img src="data/Logos/Sö.png" alt="Södertörn University" />
   </a>
   </a>
   <a href="https://www.pfizer.at/" target="_blank" rel="noopener noreferrer" aria-label="Visit Pfizer website">
-    <img src="Logos/PFE.png" alt="Pfizer" />
+    <img src="data/Logos/PFE.png" alt="Pfizer" />
   </a>
   </a>
   <a href="https://www.rivm.nl/en" target="_blank" rel="noopener noreferrer" aria-label="Visit National Institute for Public Health and the Environment website">
-    <img src="Logos/RIVM.png" alt="National Institute for Public Health and the Environment" />
+    <img src="data/Logos/RIVM.png" alt="National Institute for Public Health and the Environment" />
   </a>
 </section>
 
@@ -112,7 +112,7 @@ Click on an institution's logo to visit its website.
 :::
 
 ::: text-box
-![](Logos/plakat.png)
+![](data/Logos/plakat.png)
 
 <h1>Michał Burdukiewicz, Jarosław Chilimoniuk, and Anna Moniuszko-Malinowska receive
 funding in the PARP Eurogrant Competition</h1>

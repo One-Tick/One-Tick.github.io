@@ -1,9 +1,0 @@
----
-title: "News"
-listing:
-  contents: news
-  type: grid
-  sort: "date desc"
-  categories: true
-page-layout: full
----

@@ -1,0 +1,144 @@
+/* index page layout:
+/* Create a full-screen background for the index page */
+.index-page .hero-image {
+  background-image: url("Logos/Tick.jpg");
+  background-size: cover; /* Ensures the image covers the entire viewport */
+  background-position: center; /* Centers the image */
+  background-attachment: fixed; /* Keeps the image fixed while scrolling */
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  position: fixed; /* Fix the image in place */
+  top: 0;
+  left: 0;
+  z-index: -1; /* Place image behind the content */
+}
+
+/* Fix für Mobilgeräte */
+@media (max-width: 768px) {
+  .index-page .hero-image {
+    background-image: url("Logos/Tickphone.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+  }
+}
+
+/* Text boxes */
+.index-page .text-box {
+  margin: 0 auto; /* Center horizontally */
+  max-width: 800px; /* Constrain the text width */
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center-align text */
+  font-size: 1.2em;
+  line-height: 1.6;
+  position: relative;
+  transform: translateX(+15%);
+  z-index: 1; /* Ensure text boxes appear above the image */
+}
+
+/* Text auf Mobile anpassen */
+@media (max-width: 768px) {
+  .index-page .text-box {
+    font-size: 1em;
+    padding: 15px;
+    max-width: 90%;
+    transform: translateX(+0%);
+  }
+}
+
+/* Adjust first text box to have space from the top */
+.index-page .text-box {
+  margin-top: 200px; /* Add space to the top of the page */
+}
+
+.index-page .text-box + .text-box {
+  margin-top: 400px;
+}
+
+/* Navbar and overlay styles (if needed, they will apply across all pages) */
+.navbar-logo {
+  max-height: 75px;
+}
+
+
+/* Ensures the container takes the full width */
+.header-container {
+    position: relative;
+    width: 100vw; /* Full viewport width */
+    height: 40vh; /* Adjust the height as needed */
+    overflow: hidden;
+}
+
+.overview {
+  position: relative; /* Ensures normal document flow */
+  z-index: 1; /* Puts content above the background */
+}
+
+.overview .manyTicks {
+  background-image: url("Logos/manyTicks.png");
+  background-size: cover; /* Ensures full coverage */
+  background-position: center top; /* Ensures correct start position */
+  background-attachment: scroll; /* Makes it scrollable */
+  width: 100vw; /* Adjusts width to container */
+  min-height: 100vh; /* Ensures it covers at least the viewport height */
+  position: absolute; /* Places it within .overview */
+  top: 0;
+  left: 0;
+  z-index: -1; /* Ensures it stays behind content */
+}
+
+
+/* Text boxes */
+.overview .text-boxoo {
+  margin: 0 Center; /* Center horizontally */
+  max-width: 800px; /* Constrain the text width */
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center-align text */
+  font-size: 1.2em;
+  line-height: 1.6;
+  position: relative;
+  z-index: 1; /* Ensure text boxes appear above the image */
+}
+
+.overview .text-boxo {
+  margin: 0 Center; /* Center horizontally */
+  max-width: 800px; /* Constrain the text width */
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left; /* Center-align text */
+  font-size: 1.2em;
+  line-height: 1.6;
+  position: relative;
+  z-index: 1; /* Ensure text boxes appear above the image */
+}
+
+/* Adjust first text box to have space from the top */
+.overview .text-boxoo {
+  margin-top: 200px; /* Add space to the top of the page */
+}
+
+.overview .text-boxoo + .text-boxo {
+  margin-top: 50px;
+}
+
+.workpacks-image {
+    width: 80%;  /* Makes the image 80% of the container width */
+    max-width: 70vw; /* Limits the maximum width */
+    height: auto; /* Keeps aspect ratio */
+    display: block; /* Ensures proper alignment */
+    margin: 0 auto; /* Centers the image */
+}
+
+
+
+
+

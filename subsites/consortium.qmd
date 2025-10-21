@@ -1,0 +1,275 @@
+---
+title: "Consortium"
+---
+
+More information, including a map showing the locations of the contributing institutes, will be added shortly. We apologize for any inconvenience.  
+
+```{=html}
+<div class="sponsor-table">
+  <div class="sponsor-row">
+    <div class="sponsor-image">
+      <img src="../data/Logos/MUB.png" alt="Medical University of Bialystok" />
+    </div>
+    <div class="sponsor-info">
+      <a href="https://www.umb.edu.pl/en/" target="_blank" rel="noopener noreferrer">
+        <h2>Medical University of Bialystok</h2>
+      </a>
+      <p>Contact person: Michał Burdukiewicz</p>
+      <p>Email Adress: michal.burdukiewicz@umb.edu.pl</p>
+      <p>Website: <a href="https://biogenies.info/">Click here</a></p>
+      <p>Contact person: Anna Moniuszko-Malinowska</p>
+      <p>Email Adress: neuroin@umb.edu.pl</p>
+      <p>Website: <a href="https://ppm.umb.edu.pl/info/author/UMBfa47fc56afab42b79412cddb581169ee/Profil+osoby+%25E2%2580%2593+Anna+Moniuszko-Malinowska+%25E2%2580%2593+Uniwersytet+Medyczny+w+Bia%25C5%2582ymstoku+title?ps=20&lang=pl&pn=1&cid=89140">Click here</a></p>
+    </div>
+  </div>
+
+  <div class="sponsor-row">
+    <div class="sponsor-image">
+      <img src="../data/Logos/RH.png" alt="Rigshospitalet" />
+    </div>
+    <div class="sponsor-info">
+      <a href="https://www.rigshospitalet.dk/english/Pages/default.aspx" target="_blank" rel="noopener noreferrer">
+        <h2>Rigshospitalet</h2>
+      </a>
+      <p>Contact person: Anne-Mette Lebech</p>
+      <p>Email Adress: Anne-Mette.Lebech@regionh.dk</p>
+      <p>Website: <a href="https://www.rigshospitalet.dk/">Click here</a></p>
+    </div>
+  </div>
+
+  <div class="sponsor-row">
+    <div class="sponsor-image">
+      <img src="../data/Logos/FUB.png" alt="Freie Universität Berlin" />
+    </div>
+    <div class="sponsor-info">
+      <a href="https://www.fu-berlin.de/" target="_blank" rel="noopener noreferrer">
+        <h2>Freie Universität Berlin</h2>
+      </a>
+      <p>Contact person: Ard Nijhof</p>
+      <p>Email Adress: ard.nijhof@fu-berlin.de</p>
+      <p>Website: <a href="https://www.vetmed.fu-berlin.de/einrichtungen/zfi/we13/index.html">Click here</a></p>
+    </div>
+  </div>
+
+  <div class="sponsor-row">
+    <div class="sponsor-image">
+      <img src="../data/Logos/BC.png" alt="Biological Centre" />
+    </div>
+    <div class="sponsor-info">
+      <a href="https://www.bc.cas.cz/" target="_blank" rel="noopener noreferrer">
+        <h2>Biology Centre of the Czech Academy of Sciences</h2>
+      </a>
+      <p>Contact person: Václav Hönig</p>
+      <p>Email Adress: honig@paru.cas.cz</p>
+      <p>Website: <a href="https://www.paru.cas.cz/en/staff/profile/48-vaclavhonig/">Click here</a></p>
+    </div>
+  </div>
+
+  <div class="sponsor-row">
+    <div class="sponsor-image">
+      <img src="../data/Logos/ZR.png" alt="Zecken Radar" />
+    </div>
+    <div class="sponsor-info">
+      <a href="https://www.zecken-radar.de/" target="_blank" rel="noopener noreferrer">
+        <h2>Zecken Radar</h2>
+      </a>
+      <p>Contact person: Olaf Kahl</p>
+      <p>Email Adress: kahl@tick-radar.de</p>
+      <p>Website: <a href="https://www.zecken-radar.de/">Click here</a></p>
+    </div>
+  </div>
+
+  <div class="sponsor-row">
+    <div class="sponsor-image">
+      <img src="../data/Logos/USAMV.gif" alt="USAMV Cluj" />
+    </div>
+    <div class="sponsor-info">
+      <a href="https://www.usamvcluj.ro/" target="_blank" rel="noopener noreferrer">
+        <h2>USAMV Cluj</h2>
+      </a>
+      <p>Contact person: Andrei Daniel Mihalca</p>
+      <p>Email Adress: amihalca@usamvcluj.ro</p>
+      <p>Website: <a href="https://www.mihalca.org/">Click here</a></p>
+    </div>
+  </div>
+
+
+  <div class="sponsor-row">
+    <div class="sponsor-image">
+      <img src="../data/Logos/SoSy.png" alt="Sørlandet Sykehus" />
+    </div>
+    <div class="sponsor-info">
+      <a href="https://www.sshf.no/" target="_blank" rel="noopener noreferrer">
+        <h2>Sørlandet Sykehus</h2>
+      </a>
+      <p>Contact person: Randi Eikeland</p>
+      <p>Email Adress: randi.eikeland@sshf.no</p>
+      <p>Website: <a href="https://flattsenteret.no/">Click here</a></p>
+    </div>
+  </div>
+
+  <div class="sponsor-row">
+    <div class="sponsor-image">
+      <img src="../data/Logos/LR.png" alt="Länssjukhuset Ryhov" />
+    </div>
+    <div class="sponsor-info">
+      <a href="https://www.rjl.se/lanssjukhusetryhov" target="_blank" rel="noopener noreferrer">
+        <h2>Länssjukhuset Ryhov</h2>
+      </a>
+      <p>Contact person: Per-Eric Lindgren</p>
+      <p>Email Adress: per-eric.lindgren@liu.se</p>
+      <p>Website: <a href="https://www.rjl.se/">Click here</a></p>
+    </div>
+  </div>
+
+  <div class="sponsor-row">
+    <div class="sponsor-image">
+      <img src="../data/Logos/RS.png" alt="Rioja Salud" />
+    </div>
+    <div class="sponsor-info">
+      <a href="https://www.riojasalud.es/" target="_blank" rel="noopener noreferrer">
+        <h2>Rioja Salud</h2>
+      </a>
+      <p>Contact person: José A. Oteo</p>
+      <p>Email Adress: jaoteo@riojasalud.es</p>
+      <p>Website: <a href="https://www.cibir.es/en/research-groups/infectious-diseases/arthropod-vectors">Click here</a></p>
+    </div>
+  </div>
+  
+    <div class="sponsor-row">
+    <div class="sponsor-image">
+      <img src="../data/Logos/Sö.png" alt="Södertörn University" />
+    </div>
+    <div class="sponsor-info">
+      <a href="https://www.sh.se/english/sodertorn-university" target="_blank" rel="noopener noreferrer">
+        <h2>Södertörn University</h2>
+      </a>
+      <p>Contact person: Patrik Dinnetz</p>
+      <p>Email Adress: Patrik.dinnetz@sh.se</p>
+      <p>Website: <a href="https://www.sh.se/english/sodertorn-university/research/our-research/research-database/research-projects/human---environment-interactions-and-the-epidemiological-periurban-landscape-of-tick---borne-diseases">Click here</a></p>
+    </div>
+  </div>
+  
+    <div class="sponsor-row">
+    <div class="sponsor-image">
+      <img src="../data/Logos/PFE.png" alt="Pfizer" />
+    </div>
+    <div class="sponsor-info">
+      <a href="https://www.pfizer.at/" target="_blank" rel="noopener noreferrer">
+        <h2>Pfizer</h2>
+      </a>
+      <p>Contact person: Andreas Pilz</p>
+      <p>Email Adress: Andreas.Pilz@Pfizer.com</p>
+      <p>Website: <a href="https://www.pfizer.at/">Click here</a></p>
+    </div>
+  </div>
+
+    <div class="sponsor-row">
+    <div class="sponsor-image">
+      <img src="../data/Logos/RIVM.png" alt="Pfizer" />
+    </div>
+    <div class="sponsor-info">
+      <a href="https://www.rivm.nl/en" target="_blank" rel="noopener noreferrer">
+        <h2>National Institute for Public Health and the Environment</h2>
+      </a>
+      <p>Contact person: Hein Sprong</p>
+      <p>Email Adress: Hein.Sprong@RIVM.nl</p>
+      <p>Website: <a href="https://www.rivm.nl/en">Click here</a></p>
+    </div>
+  </div>
+  
+</div>
+
+<style>
+  .sponsor-table {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .sponsor-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+
+  .sponsor-image img {
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: contain;
+    border-radius: 5px;
+  }
+
+  .sponsor-info {
+    flex: 1;
+  }
+
+  .sponsor-info h2 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+
+  .sponsor-info p {
+    margin: 5px 0 0;
+    color: #555;
+  }
+</style>
+```
+
+
+<!-- ```{r} -->
+
+<!-- library(gapminder) -->
+<!-- library(tidygeocoder) -->
+<!-- library(plotly) -->
+<!-- library(ggthemes) -->
+
+<!-- world <- map_data("world") %>% -->
+<!--   filter(region != "Antarctica") -->
+
+<!-- gapminder_codes <- gapminder::country_codes -->
+<!-- gapminder <- gapminder::gapminder_unfiltered -->
+
+<!-- gapminder <- gapminder %>% -->
+<!--   inner_join(gapminder_codes, by= "country") %>% -->
+<!--   mutate(code = iso_alpha) -->
+
+<!-- gapminder_data <- gapminder %>% -->
+<!--   inner_join(maps::iso3166 %>% -->
+<!--                select(a3, mapname), by= c(code = "a3")) %>% -->
+<!--   mutate(mapname = str_remove(mapname, "\\(.*")) -->
+
+<!-- ## cities <- lon & lat -->
+
+<!-- full_df_longlat <- full_df_mod %>%  -->
+<!--   # select(full_name, city, country, who, activity) %>%  -->
+<!--   geocode(city = city, country = country) -->
+
+<!-- world_visit <- world %>% -->
+<!--   ggplot() + -->
+<!--   geom_polygon(aes(x = long, y = lat, group = group), -->
+<!--                fill = "burlywood1", -->
+<!--                color = "navy", -->
+<!--                size = 0.05) + -->
+<!--   geom_point(data = full_df_longlat,  -->
+<!--              aes(x = long, y = lat, color = activity, text = paste0(full_name, "<br>", city, ", ", country, "<br>", who)),  -->
+<!--              # alpha = 0.6, -->
+<!--              size = 2, -->
+<!--              position = "jitter") + -->
+<!--   labs(title = "BioGenies in the world") + -->
+<!--   theme_map() + -->
+<!--   scale_size_continuous(guide = F) + -->
+<!--   scale_color_discrete(name = "Type") + -->
+<!--   theme(plot.title = element_text(size = 14, hjust = 0.5), -->
+<!--         legend.text = element_text(size=14)) -->
+
+
+<!-- inter_plot <- ggplotly(world_visit, tooltip = "text") -->
+
+<!-- ``` -->
+
+
