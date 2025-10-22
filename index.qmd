@@ -17,7 +17,6 @@ class: index-page
 <p>OneTick aims to enhance our understanding and management of tick-borne diseases in urban and peri-urban environments by integrating ecological, biomedical, and public health perspectives. We will address the interconnected health of humans, animals, and the environment by employing a One Health approach.</p>
 :::
 
-
 ::: text-box
 <h1>Institutes</h1>
 
