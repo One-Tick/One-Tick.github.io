@@ -1,9 +1,16 @@
 ---
 title: "Consortium"
+# format:
+#   html:
+#     grid:
+#       sidebar-width: 0px
+#       body-width: 1500px
+#       margin-width: 300px
+#       gutter-width: 1.5rem
 ---
 
 More information, including a map showing the locations of the contributing institutes, will be added shortly. We apologize for any inconvenience.  
-
+<!-- ::: {layout-ncol=4} -->
 ```{=html}
 <div class="sponsor-table">
   <div class="sponsor-row">
@@ -182,13 +189,14 @@ More information, including a map showing the locations of the contributing inst
 
 <style>
   .sponsor-table {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: dodgerblue;
+    padding: 10px;
   }
 
   .sponsor-row {
-    display: flex;
+    display: grid;
     align-items: center;
     gap: 20px;
     border: 1px solid #ccc;
@@ -220,6 +228,7 @@ More information, including a map showing the locations of the contributing inst
 </style>
 ```
 
+<!-- ::: -->
 
 <!-- ```{r} -->
 

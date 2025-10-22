@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>index</title>
+<title>News</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +23,26 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./data/Logos/favicon.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-dfb324f25d9b1687192fa8be62ac8f9c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../data/Logos/favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-dfb324f25d9b1687192fa8be62ac8f9c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,27 +70,81 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="">
-<meta property="og:image" content="data/Logos/MUB.png">
-<meta property="og:image:alt" content="Medical University of Bialystok">
-<meta name="twitter:title" content="">
-<meta name="twitter:image" content="data/Logos/MUB.png">
-<meta name="twitter:image:alt" content="Medical University of Bialystok">
-<meta name="twitter:card" content="summary_large_image">
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="News">
+<meta name="twitter:title" content="News">
+<meta name="twitter:card" content="summary">
 </head>
 
-<body class="index-page nav-fixed quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./Logo.png" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../Logo.png" alt="" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -103,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-participants">    
         <li>
-    <a class="dropdown-item" href="./subsites/consortium.html">
+    <a class="dropdown-item" href="../subsites/consortium.html">
  <span class="dropdown-text">Consortium</span></a>
   </li>  
     </ul>
@@ -114,37 +170,37 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-goals">    
         <li>
-    <a class="dropdown-item" href="./subsites/overview.html">
+    <a class="dropdown-item" href="../subsites/overview.html">
  <span class="dropdown-text">Overview</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./subsites/packageone.html">
+    <a class="dropdown-item" href="../subsites/packageone.html">
  <span class="dropdown-text">Work Package 1</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./subsites/packagetwo.html">
+    <a class="dropdown-item" href="../subsites/packagetwo.html">
  <span class="dropdown-text">Work Package 2</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./subsites/packagethree.html">
+    <a class="dropdown-item" href="../subsites/packagethree.html">
  <span class="dropdown-text">Work Package 3</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./subsites/packagefour.html">
+    <a class="dropdown-item" href="../subsites/packagefour.html">
  <span class="dropdown-text">Work Package 4</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./subsites/packagefive.html">
+    <a class="dropdown-item" href="../subsites/packagefive.html">
  <span class="dropdown-text">Work Package 5</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./subsites/news.html"> 
+    <a class="nav-link active" href="../subsites/news.html" aria-current="page"> 
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./subsites/events.html"> 
+    <a class="nav-link" href="../subsites/events.html"> 
 <span class="menu-text">Events</span></a>
   </li>  
 </ul>
@@ -155,137 +211,70 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TVNDQQ==">MSCA <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">
-OneTick
-</h1></header>
+<main class="content column-page-left" id="quarto-document-content">
 
-
-
-
-<div class="hero-image">
-
-</div>
-
-<div class="text-box">
-
-<p>
-OneTick aims to enhance our understanding and management of tick-borne diseases in urban and peri-urban environments by integrating ecological, biomedical, and public health perspectives. We will address the interconnected health of humans, animals, and the environment by employing a One Health approach.
-</p>
-</div>
-<div class="text-box">
-<h1>
-Institutes
-</h1>
-<p>
-</p><p>This project brings together experts from various institutes to achieve the best possible outcome. The following institutes are part of the collaboration. More information about each institute and their team leaders can be found <a href="consortium.qmd">here</a>.</p>
-Click on an institution’s logo to visit its website.
-<p></p>
-<!-- SPONSORS SECTION -->
-<section id="sponsor-logos" class="sponsors">
-  <a href="https://www.umb.edu.pl/en/" target="_blank" rel="noopener noreferrer" aria-label="Visit Medical University of Bialystok website">
-    <img src="data/Logos/MUB.png" alt="Medical University of Bialystok">
-  </a>
-  <a href="https://www.rigshospitalet.dk/english/Pages/default.aspx" target="_blank" rel="noopener noreferrer" aria-label="Visit Rigshospitalet website">
-    <img src="data/Logos/RH.png" alt="Rigshospitalet">
-  </a>
-  <a href="https://www.fu-berlin.de/" target="_blank" rel="noopener noreferrer" aria-label="Visit Freie Universität Berlin website">
-    <img src="data/Logos/FUB.png" alt="Freie Universität Berlin">
-  </a>
-  <a href="https://www.bc.cas.cz/" target="_blank" rel="noopener noreferrer" aria-label="Visit Biological Centre website">
-    <img src="data/Logos/BC.png" alt="Biological Centre">
-  </a>
-  
-  <a href="https://www.zecken-radar.de/" target="_blank" rel="noopener noreferrer" aria-label="Visit Zecken Radar website">
-    <img src="data/Logos/ZR.png" alt="Zecken Radar">
-  </a>
-  <a href="https://www.usamvcluj.ro/" target="_blank" rel="noopener noreferrer" aria-label="Visit USAMV Cluj website">
-    <img src="data/Logos/USAMV.gif" alt="USAMV Cluj">
-  </a><a href="https://www.sshf.no/" target="_blank" rel="noopener noreferrer" aria-label="Visit Sørlandet Sykehus website">
-    <img src="data/Logos/SoSy.png" alt="Sørlandet Sykehus">
-  </a>
-  <a href="https://www.rjl.se/lanssjukhusetryhov" target="_blank" rel="noopener noreferrer" aria-label="Visit Länssjukhuset Ryhov website">
-    <img src="data/Logos/LR.png" alt="Länssjukhuset Ryhov">
-  </a>
-  <a href="https://www.riojasalud.es/" target="_blank" rel="noopener noreferrer" aria-label="Visit Rioja Salud website">
-    <img src="data/Logos/RS.png" alt="Rioja Salud">
-  </a>
-  
-  <a href="https://www.sh.se/english/sodertorn-university" target="_blank" rel="noopener noreferrer" aria-label="Visit Södertörn University website">
-    <img src="data/Logos/Sö.png" alt="Södertörn University">
-  </a>
-  
-  <a href="https://www.pfizer.at/" target="_blank" rel="noopener noreferrer" aria-label="Visit Pfizer website">
-    <img src="data/Logos/PFE.png" alt="Pfizer">
-  </a>
-  
-  <a href="https://www.rivm.nl/en" target="_blank" rel="noopener noreferrer" aria-label="Visit National Institute for Public Health and the Environment website">
-    <img src="data/Logos/RIVM.png" alt="National Institute for Public Health and the Environment">
-  </a>
-</section>
-
-<style>
-  /* General Styles */
-  .sponsors {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 15px; /* Space between sponsor images */
-  }
-
-  .sponsors img {
-    height: 100px;
-    transition: transform 0.3s ease; /* Smooth hover effect */
-  }
-
-  .sponsors a:hover img {
-    transform: scale(1.05); /* Slight zoom-in on hover */
-  }
-
-  /* Media Query for smaller screens */
-  @media (max-width: 600px) {
-    .sponsors {
-      justify-content: center;
-      align-items: flex-start;
-      gap: 10px;
-    }
-  }
-  
-  @media (max-width: 600px) {
-  .sponsors img {
-    height: auto;  /* Erhält das Seitenverhältnis */
-    max-width: 80px; /* Begrenzt die Breite der Logos für kleine Bildschirme */
-  }
-}
-
-</style>
-
-</div>
-<div class="text-box">
-<p><img src="data/Logos/plakat.png" class="img-fluid"></p>
-<h1>
-Michał Burdukiewicz, Jarosław Chilimoniuk, and Anna Moniuszko-Malinowska receive funding in the PARP Eurogrant Competition
-</h1>
-<p>
-A project led by Dr.&nbsp;Michał Burdukiewicz and Dr.&nbsp;Jarosław Chilimoniuk from the Bioinformatics and Multi-Omics Analysis Laboratory at the Clinical Research Centre, along with Professor Anna Moniuszko-Malinowska from the Department of Infectious Diseases and Neuroinfections at the Medical University of Białystok (MUB), has been selected for funding by the Polish Agency for Enterprise Development (PARP) under the FENG 02.12 “Eurogrant Grants - Call for Research Projects.”<br>
-This funding supports projects with high innovative and research potential.<br>
-The aim of this initiative by PARP is to enhance the innovation and international presence of Polish research organizations by increasing their involvement in EU programs managed centrally, particularly Horizon Europe.<br>
-The project titled OneTick, submitted by Michał Burdukiewicz, Anna Moniuszko-Malinowska, and Jarosław Chilimoniuk under the Marie Skłodowska-Curie Actions Staff Exchanges programme, seeks to establish a consortium focused on developing new diagnostic methods for tick-borne diseases. The innovation of the project lies in its adoption of the One Health approach, which integrates human, animal, and environmental health.<br>
-The funding awarded will help the team prepare their proposal for the Marie Skłodowska- Curie Actions Staff Exchanges programme and create informational materials for potential consortium partners. This will significantly increase their opportunities for international research collaboration.<br>
-The project is administratively supported by the Development and Evaluation Department at MUB.
-</p>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">News</h1>
 </div>
 
 
 
-</main> <!-- /main -->
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="TVNDQQ==" data-listing-date-sort="1738710000000" data-listing-file-modified-sort="1761071547929" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="75">
+<a href="../subsites/news/2025_02_05.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="..\data\Logos\HE.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Proposal successfully submitted
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('TVNDQQ=='); return false;">MSCA</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Today the proposal for the MSCA Staff Exchanges was submitted</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Feb 5, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
