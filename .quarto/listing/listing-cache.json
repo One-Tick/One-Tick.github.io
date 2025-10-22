@@ -1,11 +1,7 @@
 {
   "listingMap": {
-    "news.qmd": [
-      "news"
-    ],
     "subsites\\news.qmd": [
-      "news",
-      "../news"
+      "news"
     ]
   }
 }

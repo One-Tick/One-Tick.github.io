@@ -1,11 +1,5 @@
 [
   {
-    "listing": "/news.html",
-    "items": [
-      "/news/2025_02_05.html"
-    ]
-  },
-  {
     "listing": "/subsites/news.html",
     "items": [
       "/subsites/news/2025_02_05.html"

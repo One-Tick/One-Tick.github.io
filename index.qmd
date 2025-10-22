@@ -22,7 +22,7 @@ class: index-page
 <h1>Institutes</h1>
 
 
-<p> This project brings together experts from various institutes to achieve the best possible outcome. The following institutes are part of the collaboration. More information about each institute and their team leaders can be found [here](consortium.qmd).  
+<p> This project brings together experts from various institutes to achieve the best possible outcome. The following institutes are part of the collaboration. More information about each institute and their team leaders can be found [here](subsites/consortium.qmd).  
 
 Click on an institution's logo to visit its website.
 </p>
