@@ -2,7 +2,9 @@
 title: "Proposal successfully submitted"
 description: "Today the proposal for the MSCA Staff Exchanges was submitted"
 date: 2025-02-05
-categories: ["MSCA"]
+categories:
+  - MSCA
+  - Horizon Europe
 ---
 
 ![](../../data/Logos/HE.png)   

@@ -5,11 +5,11 @@ format:
     grid:
       sidebar-width: 0px
       body-width: 1500px
-      margin-width: 300px
+      # margin-width: 300px
       gutter-width: 1.5rem
 ---
 
-```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.width=10, fig.height=6}
+```{r, echo=FALSE, warning=FALSE, message=FALSE, dpi=600, out.width="1450px", out.height="1080px"}
 library(ggplot2)
 library(sf)
 library(dplyr)
@@ -28,69 +28,78 @@ cities <- ne_download(scale = 10, type = "populated_places", category = "cultura
 consortium_cities <- dplyr::filter(
   cities,
   NAME_EN %in% c("Berlin", "Białystok", "Copenhagen", "Cluj-Napoca",
-                 "Kristiansand", "Linköping", "Vienna", "Logroño",
+                 "Kristiansand", "Vienna", "Logroño",
                  "Jönköping", "Utrecht", "České Budějovice", "Stockholm")
 )
 
 consortium_map <- world_map |>
-  mutate(consortium = if_else(name_en %in% oneTick, "Konsorcjum", "Inne"))
+  mutate(consortium = if_else(name_en %in% oneTick, "consortium", "others"))
 
-# ---- Ustawienia mapy ----
-# Projekcja: Europe Lambert Azimuthal Equal Area (ładne proporcje dla Europy)
+
+uni_labels <- tibble::tibble(
+  NAME_EN = c("Berlin", "Białystok", "Copenhagen", "Cluj-Napoca",
+              "Kristiansand", "Vienna", "Logroño",
+              "Jönköping", "Utrecht", "České Budějovice", "Stockholm"),
+  uni = c("TICK-RADAR GMBH,
+          FREIE UNIVERSITAET BERLIN",
+          "UNIWERSYTET MEDYCZNY W BIALYMSTOKU",
+          "REGION HOVEDSTADEN",
+          "UNIVERSITATEA DE STIINTE AGRICOLE SI 
+          MEDICINA VETERINARA CLUJ NAPOCA",
+          "SORLANDET SYKEHUS HF",
+          "Pfizer Corporation Austria",
+          "FUNDACION RIOJA SALUD-FRS",
+          "JONKOPINGS LAN",
+          "RIJKSINSTITUUT VOOR VOLKSGEZONDHEID 
+          EN MILIEU",
+          "BIOLOGICKE CENTRUM AKADEMIE VID CESKE 
+          REPUBLIKY VEREJNA VYZKUMNA INSTITUCE",
+          "SODERTORNS HOGSKOLA"))
+
+consortium_cities <- consortium_cities |>
+  left_join(uni_labels, by = "NAME_EN")
+
 laea_europe <- "+proj=laea +lat_0=55 +lon_0=15 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs"
 
-# Przetransformuj warstwy do tej samej projekcji
 consortium_map_proj  <- st_transform(consortium_map, crs = st_crs(laea_europe))
 consortium_cities_proj <- st_transform(consortium_cities, crs = st_crs(laea_europe))
 
-# Przytnij zasięg (Europa)
-bbox_laea <- st_as_sfc(st_bbox(c(xmin = -10, xmax = 40, ymin = 35, ymax = 70), crs = 4326)) |>
+bbox_laea <- st_as_sfc(st_bbox(c(xmin = -30, xmax = 40, ymin = 20, ymax = 90), crs = 4326)) |>
   st_transform(st_crs(laea_europe))
+
 
 consortium_map_proj  <- st_intersection(consortium_map_proj, bbox_laea)
 consortium_cities_proj <- consortium_cities_proj[st_within(consortium_cities_proj, bbox_laea, sparse = FALSE), ]
 
-# ---- Paleta i styl ----
-land_fill_other <- "#E6E8EF"   # jasna zgaszona szarość dla 'Inne'
-land_fill_cons  <- "#7FB3D5"   # lekko przydymiony niebieski dla 'Konsorcjum'
+land_fill_other <- "#E6E8EF" 
+land_fill_cons  <- "#7FB3D5" 
 land_border     <- "#8A8FA3"
 water_fill      <- "#F6FAFF"
 city_fill       <- "white"
 city_stroke     <- "#1F3556"
-label_fill      <- "white"     # tło etykiet (dla shadow/box)
+label_fill      <- "white"  
 label_col       <- "#0F1A2B"
 
-# ---- Rysunek ----
 ggplot() +
-  # „ocean”
   geom_sf(data = st_as_sf(bbox_laea), fill = water_fill, color = NA) +
-  # państwa
   geom_sf(data = consortium_map_proj,
           aes(fill = consortium),
           color = land_border, linewidth = 0.2) +
-  scale_fill_manual(values = c("Konsorcjum" = land_fill_cons,
-                               "Inne"       = land_fill_other)) +
-  # miasta (kółka z obwódką)
+  scale_fill_manual(values = c("consortium" = land_fill_cons,
+                               "others"       = land_fill_other)) +
   geom_sf(data = consortium_cities_proj,
           shape = 21, size = 2.8, stroke = 0.6,
           fill = city_fill, color = city_stroke) +
-  # etykiety nie nachodzące na punkty
-  geom_text_repel(
-    data = cbind(consortium_cities_proj,
+  geom_text_repel(data = cbind(consortium_cities_proj,
                  st_coordinates(st_centroid(consortium_cities_proj))),
-    aes(X, Y, label = NAME_EN),
-    family = "sans", size = 3.4, min.segment.length = 0,
+    aes(X, Y, label = uni),
+    family = "sans", size = 1.5, min.segment.length = 0,
     segment.size = 0.25, segment.color = "#6B7280",
     box.padding = 0.5, point.padding = 0.3,
     bg.color = label_fill, bg.r = 0.12, color = label_col
   ) +
   coord_sf(crs = st_crs(laea_europe)) +
   guides(fill = "none") +
-  # labs(
-  #   title = "Miasta i państwa konsorcjum",
-  #   subtitle = "Europa (projekcja LAEA) • wyróżnione kraje członkowskie",
-  #   caption = "Źródło: Natural Earth • opracowanie własne"
-  # ) +
   theme_void(base_size = 11) +
   theme(
     plot.background = element_rect(fill = "white", color = NA),
@@ -98,8 +107,7 @@ ggplot() +
     plot.title   = element_text(face = "bold", size = 14, color = "#0B132B"),
     plot.subtitle= element_text(size = 10.5, color = "#334155"),
     plot.caption = element_text(size = 8.5, color = "#6B7280", margin = margin(t = 6)),
-    plot.margin  = margin(8, 12, 8, 12)
-  )
+    plot.margin  = margin(8, 12, 8, 12))
 ```
 
 
@@ -299,8 +307,8 @@ ggplot() +
   }
 
   .sponsor-image img {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 200px;
+    max-height: 200px;
     object-fit: contain;
     border-radius: 5px;
   }
