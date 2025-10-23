@@ -6,9 +6,13 @@ website:
   favicon: data/Logos/favicon.png
   open-graph: true
   twitter-card: true
-
+  title: "OneTick"
+  reader-mode: true
+  page-footer: "&copy; 2025 Website developed by BioGenies team."
   navbar:
     logo: Logo.png
+    search: true
+    pinned: true
     hoverable: true
     left:
       - text: Participants
@@ -33,8 +37,17 @@ website:
         href: subsites/news.qmd
       - text: Events
         href: subsites/events.qmd
-
-
+    tools:
+      - icon: twitter-x
+        href: https://X.com/MSCA_OneTick
+      - icon: linkedin
+        href: https://www.linkedin.com/company/107098553/
+      - icon: instagram
+        href: https://www.instagram.com/onetick_msca/
+      - icon: facebook
+        href: https://www.facebook.com/MSCA.OneTick
+      - icon: github
+        href: https://github.com/One-Tick
 format:
   html:
     theme: cosmo
