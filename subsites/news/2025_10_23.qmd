@@ -1,1 +1,51 @@
 
+---
+title:  "🌿 Fruitful Meeting of the OneTick Consortium 🤝"
+description: "The OneTick Consortium met online to coordinate secondments, budgeting, and open-science plans ahead of the project’s official launch on January 1 2026. 🌍🕷️"
+date: "10/23/2025"
+categories:
+  - MSCA
+  - Horizon Europe
+# image: "../fig/posts/2025_05_22/"
+---
+# 🌿 OneTick is launching soon! The **consortium** is ready for action! 🤝
+We’re thrilled to share that on **October 23, 2025**, the **Medical University of Białystok** coordinated the **meeting of the OneTick Consortium** — a key milestone for our 🇪🇺 **MSCA Staff Exchange project** studying **🕷️ tick-borne diseases** in the context of **🌍 climate change** and **🏙️ urbanization**.
+
+## 💬 **A Productive Discussion**
+
+Representatives from **13 partner institutions across Europe** 🌐 met virtually to discuss the next steps before the official project launch.  
+
+Key topics included:  
+- 🔄 Integrating **secondments** into work packages  
+- 💶 Establishing **budgeting** and **reporting** best practices  
+- 📖 Promoting **open science** and effective data sharing  
+
+The meeting was **highly engaging and collaborative**, providing valuable insights into how to implement each work package efficiently across institutions.
+
+## 🚀 **What’s Next**
+
+The **OneTick project officially starts on January 1, 2026** — marking the beginning of an exciting international effort to better understand **tick-borne diseases**.  
+
+Stay tuned for updates as our consortium moves from **planning to action!** 🌱
+
+## 🤝 **Consortium** 🌐
+
+- 🧭 Medical University of Białystok 🇵🇱  
+- 🧪 Tick-radar GmbH 🇩🇪  
+- 🧬 FUNDACION RIOJA SALUD 🇪🇸  
+- 🎓 Södertörn University 🇸🇪  
+- 🏥 Rigshospitalet 🇩🇰  
+- 💊 Pfizer 🇦🇹  
+- 🧠 Freie Universität Berlin 🇩🇪  
+- 🐾 University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca 🇷🇴  
+- 🏥 Region Jönköpings län 🇸🇪  
+- 🏥 Sørlandet sykehus HF 🇳🇴  
+- 🧫 RIVM National Institute for Public Health and the Environment 🇳🇱  
+- 🔬 Biologické centrum AV ČR, v.v.i. 🇨🇿  
+
+---
+
+Funded by the **European Union** (project **101236599**).  
+Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the **European Union** or the **REA**.  
+Neither the European Union nor the granting authority can be held responsible for them.
+
