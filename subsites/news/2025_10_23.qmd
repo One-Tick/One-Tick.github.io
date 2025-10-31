@@ -5,10 +5,14 @@ date: "10/23/2025"
 categories:
   - MSCA
   - Horizon Europe
-# image: "../fig/posts/2025_10_23/meeting_20251023.png"
+image: "fig/posts/2025_10_23/meeting_20251023.png"
+resources:
+  - fig/posts/2025_10_23/** 
 ---
 # 🌿 OneTick is launching soon! The **consortium** is ready for action! 🤝
 We’re thrilled to share that on **October 23, 2025**, the **Medical University of Białystok** coordinated the **meeting of the OneTick Consortium** — a key milestone for our 🇪🇺 **MSCA Staff Exchange project** studying **🕷️ tick-borne diseases** in the context of **🌍 climate change** and **🏙️ urbanization**.
+
+![](fig/posts/2025_10_23/meeting_20251023.png)
 
 ## 💬 **A Productive Discussion**
 
