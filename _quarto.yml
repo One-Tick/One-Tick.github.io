@@ -1,7 +1,6 @@
 project:
   type: website
   output-dir: docs
-
 website:
   favicon: data/Logos/favicon.png
   open-graph: true
