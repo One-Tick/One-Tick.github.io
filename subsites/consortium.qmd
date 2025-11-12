@@ -9,6 +9,63 @@ format:
       gutter-width: 1.5rem
 ---
 
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+library(leaflet)
+library(base64enc)
+
+partners <- data.frame(
+  name = c(
+    "Tick-Radar",
+    "Fundación Rioja Salud",
+    "Södertörn University",
+    "Copenhagen University Hospital – Rigshospitalet",
+    "Pfizer",
+    "Freie Universität Berlin",
+    "University of Agricultural Sciences and Veterinary Medicine of Cluj-Napoca",
+    "County Hospital Ryhov",
+    "Sørlandet Hospital Trust",
+    "National Institute of Public Health and the Environment",
+    "Biology Centre of the Czech Academy of Sciences",
+    "Medical University of Białystok"
+  ),
+  lat = c(52.460306, 42.451336, 59.219236, 55.697092, 48.253023, 
+          52.457000, 46.760240, 57.767835, 58.164305, 52.118721, 
+          48.978289, 53.130545),
+  lng = c(13.306471, -2.426458, 17.943152, 12.565886, 16.393069, 
+          13.287700, 23.570472, 14.195082, 7.982493, 5.189093, 
+          14.446490, 23.166057), 
+  logo = c(
+    "ZR.png", "RS.png", "So.png", "RH.png", "PFE.png", 
+    "FUB.png", "USAMV.png", "LR.png", "SoSy.png", 
+    "RIVM.png", "BC.png", "MUB.png"), 
+  website = c(
+    "https://tick-radar.de", "https://riojasalud.es","https://www.sh.se","https://www.rigshospitalet.dk",
+    "https://www.pfizer.at","https://www.fu-berlin.de","https://www.usamvcluj.ro","https://rjl.se",
+    "https://sshf.no","https://www.rivm.nl","https://www.bc.cas.cz","https://www.umb.edu.pl"
+  )
+)
+
+
+
+partners$logo <- sapply(partners$logo, function(x) dataURI(file = x, mime = "image/png"))
+
+popup <- sprintf(
+  "<b>%s</b><br>
+   <img src='%s' width='100'><br>
+   <a href='%s' target='_blank'>🌐 Visit website</a>",
+  partners$name, partners$logo, partners$website
+)
+
+leaflet(partners) |>
+  addProviderTiles(providers$CartoDB.Voyager) |>
+  addMarkers(~lng, ~lat, popup = popup)
+```
+
+
+
+
+<!--
 ```{r, echo=FALSE, warning=FALSE, message=FALSE, dpi=600, out.width="1450px", out.height="1080px"}
 library(ggplot2)
 library(sf)
@@ -108,7 +165,7 @@ ggplot() +
     plot.caption = element_text(size = 8.5, color = "#6B7280", margin = margin(t = 6)),
     plot.margin  = margin(8, 12, 8, 12))
 ```
-
+-->
 
 
 ```{=html}
@@ -327,6 +384,7 @@ ggplot() +
   }
 </style>
 ```
+
 
 
 
