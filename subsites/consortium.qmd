@@ -16,7 +16,6 @@ library(base64enc)
 
 partners <- data.frame(
   name = c(
-    "Tick-Radar",
     "Fundación Rioja Salud",
     "Södertörn University",
     "Copenhagen University Hospital – Rigshospitalet",
@@ -29,18 +28,18 @@ partners <- data.frame(
     "Biology Centre of the Czech Academy of Sciences",
     "Medical University of Białystok"
   ),
-  lat = c(52.460306, 42.451336, 59.219236, 55.697092, 48.253023, 
+  lat = c(42.451336, 59.219236, 55.697092, 48.253023, 
           52.457000, 46.760240, 57.767835, 58.164305, 52.118721, 
           48.978289, 53.130545),
-  lng = c(13.306471, -2.426458, 17.943152, 12.565886, 16.393069, 
+  lng = c(-2.426458, 17.943152, 12.565886, 16.393069, 
           13.287700, 23.570472, 14.195082, 7.982493, 5.189093, 
           14.446490, 23.166057), 
   logo = c(
-    "ZR.png", "RS.png", "So.png", "RH.png", "PFE.png", 
+    "RS.png", "So.png", "RH.png", "PFE.png", 
     "FUB.png", "USAMV.png", "LR.png", "SoSy.png", 
     "RIVM.png", "BC.png", "MUB.png"), 
   website = c(
-    "https://tick-radar.de", "https://riojasalud.es","https://www.sh.se","https://www.rigshospitalet.dk",
+    "https://riojasalud.es","https://www.sh.se","https://www.rigshospitalet.dk",
     "https://www.pfizer.at","https://www.fu-berlin.de","https://www.usamvcluj.ro","https://rjl.se",
     "https://sshf.no","https://www.rivm.nl","https://www.bc.cas.cz","https://www.umb.edu.pl"
   )
@@ -226,20 +225,6 @@ ggplot() +
       <p>Contact person: Václav Hönig</p>
       <p>Email Adress: honig@paru.cas.cz</p>
       <p>Website: <a href="https://www.paru.cas.cz/en/staff/profile/48-vaclavhonig/">Click here</a></p>
-    </div>
-  </div>
-
-  <div class="sponsor-row">
-    <div class="sponsor-image">
-      <img src="../data/Logos/ZR.png" alt="Zecken Radar" />
-    </div>
-    <div class="sponsor-info">
-      <a href="https://www.zecken-radar.de/" target="_blank" rel="noopener noreferrer">
-        <h2>Zecken Radar</h2>
-      </a>
-      <p>Contact person: Olaf Kahl</p>
-      <p>Email Adress: kahl@tick-radar.de</p>
-      <p>Website: <a href="https://www.zecken-radar.de/">Click here</a></p>
     </div>
   </div>
 
