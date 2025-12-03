@@ -23,6 +23,6 @@ The OneTick management work package ensures effective coordination and smooth im
 ## 🚚 Deliverables:
 
 •	D5.1 - Data management plan - version 1.  
-•	D5.2 - Progress report.
-•	D5.3 - Mid-term meeting.
-•	D5.4 - Data Management Plan – Version 2 
+•	D5.2 - Progress report.  
+•	D5.3 - Mid-term meeting.  
+•	D5.4 - Data Management Plan – Version 2.  
