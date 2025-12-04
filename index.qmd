@@ -41,6 +41,8 @@ Click on an institution's logo to visit its website.
   <a href="https://www.bc.cas.cz/" target="_blank" rel="noopener noreferrer" aria-label="Visit Biological Centre website">
     <img src="data/Logos/BC.png" alt="Biological Centre" />
   </a>
+  <a href="https://www.zecken-radar.de/" target="_blank" rel="noopener noreferrer" aria-label="Visit Zecken Radar website">
+    <img src="data/Logos/ZR.png" alt="Zecken Radar">
   </a>
   <a href="https://www.usamvcluj.ro/" target="_blank" rel="noopener noreferrer" aria-label="Visit USAMV Cluj website">
     <img src="data/Logos/USAMV.gif" alt="USAMV Cluj" />
