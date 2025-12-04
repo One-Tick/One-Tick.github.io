@@ -20,30 +20,212 @@ partners <- data.frame(
     "Fundación Rioja Salud",
     "Södertörn University",
     "Copenhagen University Hospital – Rigshospitalet",
-@@ -29,18 +28,18 @@
+    "Pfizer",
+    "Freie Universität Berlin",
+    "University of Agricultural Sciences and Veterinary Medicine of Cluj-Napoca",
+    "County Hospital Ryhov",
+    "Sørlandet Hospital Trust",
+    "National Institute of Public Health and the Environment",
     "Biology Centre of the Czech Academy of Sciences",
     "Medical University of Białystok"
   ),
   lat = c(52.460306, 42.451336, 59.219236, 55.697092, 48.253023, 
-  lat = c(42.451336, 59.219236, 55.697092, 48.253023, 
           52.457000, 46.760240, 57.767835, 58.164305, 52.118721, 
           48.978289, 53.130545),
   lng = c(13.306471, -2.426458, 17.943152, 12.565886, 16.393069, 
-  lng = c(-2.426458, 17.943152, 12.565886, 16.393069, 
           13.287700, 23.570472, 14.195082, 7.982493, 5.189093, 
           14.446490, 23.166057), 
   logo = c(
     "ZR.png", "RS.png", "So.png", "RH.png", "PFE.png", 
-    "RS.png", "So.png", "RH.png", "PFE.png", 
     "FUB.png", "USAMV.png", "LR.png", "SoSy.png", 
     "RIVM.png", "BC.png", "MUB.png"), 
   website = c(
     "https://tick-radar.de", "https://riojasalud.es","https://www.sh.se","https://www.rigshospitalet.dk",
-    "https://riojasalud.es","https://www.sh.se","https://www.rigshospitalet.dk",
     "https://www.pfizer.at","https://www.fu-berlin.de","https://www.usamvcluj.ro","https://rjl.se",
     "https://sshf.no","https://www.rivm.nl","https://www.bc.cas.cz","https://www.umb.edu.pl"
   )
-@@ -229,163 +228,149 @@
+)
+
+
+
+partners$logo <- sapply(partners$logo, function(x) dataURI(file = x, mime = "image/png"))
+
+popup <- sprintf(
+  "<b>%s</b><br>
+   <img src='%s' width='100'><br>
+   <a href='%s' target='_blank'>🌐 Visit website</a>",
+  partners$name, partners$logo, partners$website
+)
+
+leaflet(partners) |>
+  addProviderTiles(providers$CartoDB.Voyager) |>
+  addMarkers(~lng, ~lat, popup = popup)
+```
+
+
+
+
+<!--
+```{r, echo=FALSE, warning=FALSE, message=FALSE, dpi=600, out.width="1450px", out.height="1080px"}
+library(ggplot2)
+library(sf)
+library(dplyr)
+library(rnaturalearth)
+library(ggrepel)   
+library(ggimage)    
+
+oneTick <- c("Poland", "Netherlands", "Czech Republic", "Denmark", "Germany", "Romania",
+             "Spain","Sweden", "Austria", "Norway")
+
+world_map <- ne_countries(scale = 10, returnclass = "sf")
+
+cities <- ne_download(scale = 10, type = "populated_places", category = "cultural",
+                      returnclass = "sf", destdir = "../data")
+
+consortium_cities <- dplyr::filter(
+  cities,
+  NAME_EN %in% c("Berlin", "Białystok", "Copenhagen", "Cluj-Napoca",
+                 "Kristiansand", "Vienna", "Logroño",
+                 "Jönköping", "Utrecht", "České Budějovice", "Stockholm")
+)
+
+consortium_map <- world_map %>% 
+  mutate(consortium = if_else(name_en %in% oneTick, "consortium", "others"))
+
+
+uni_labels <- tibble::tibble(
+  NAME_EN = c("Berlin", "Białystok", "Copenhagen", "Cluj-Napoca",
+              "Kristiansand", "Vienna", "Logroño",
+              "Jönköping", "Utrecht", "České Budějovice", "Stockholm"),
+  uni = c("TICK-RADAR GMBH; FREIE UNIVERSITAET BERLIN",
+          "UNIWERSYTET MEDYCZNY W BIALYMSTOKU",
+          "REGION HOVEDSTADEN",
+          "UNIVERSITATEA DE STIINTE AGRICOLE SI 
+          MEDICINA VETERINARA CLUJ NAPOCA",
+          "SORLANDET SYKEHUS HF",
+          "Pfizer Corporation Austria",
+          "FUNDACION RIOJA SALUD-FRS",
+          "JONKOPINGS LAN",
+          "RIJKSINSTITUUT VOOR VOLKSGEZONDHEID 
+          EN MILIEU",
+          "BIOLOGICKE CENTRUM AKADEMIE VID CESKE 
+          REPUBLIKY VEREJNA VYZKUMNA INSTITUCE",
+          "SODERTORNS HOGSKOLA"))
+
+consortium_cities <- consortium_cities %>% 
+  left_join(uni_labels, by = "NAME_EN")
+
+laea_europe <- "+proj=laea +lat_0=55 +lon_0=15 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs"
+
+consortium_map_proj  <- st_transform(consortium_map, crs = st_crs(laea_europe))
+consortium_cities_proj <- st_transform(consortium_cities, crs = st_crs(laea_europe))
+
+bbox_laea <- st_as_sfc(st_bbox(c(xmin = -30, xmax = 40, ymin = 20, ymax = 90), crs = 4326)) %>% 
+  st_transform(st_crs(laea_europe))
+
+
+consortium_map_proj  <- st_intersection(consortium_map_proj, bbox_laea)
+consortium_cities_proj <- consortium_cities_proj[st_within(consortium_cities_proj, bbox_laea, sparse = FALSE), ]
+
+land_fill_other <- "#E6E8EF" 
+land_fill_cons  <- "#7FB3D5" 
+land_border     <- "#8A8FA3"
+water_fill      <- "#F6FAFF"
+city_fill       <- "white"
+city_stroke     <- "#1F3556"
+label_fill      <- "white"  
+label_col       <- "#0F1A2B"
+
+ggplot() +
+  geom_sf(data = st_as_sf(bbox_laea), fill = water_fill, color = NA) +
+  geom_sf(data = consortium_map_proj,
+          aes(fill = consortium),
+          color = land_border, linewidth = 0.2) +
+  scale_fill_manual(values = c("consortium" = land_fill_cons,
+                               "others"       = land_fill_other)) +
+  geom_sf(data = consortium_cities_proj,
+          shape = 21, size = 1, stroke = 0.6,
+          fill = city_fill, color = city_stroke) +
+  geom_text_repel(data = cbind(consortium_cities_proj,
+                 st_coordinates(st_centroid(consortium_cities_proj))),
+    aes(X, Y, label = uni),
+    family = "sans", size = 1.5, min.segment.length = 0,
+    segment.size = 0.25, segment.color = "#6B7280",
+    box.padding = 0.5, point.padding = 0.3,
+    bg.color = label_fill, bg.r = 0.12, color = label_col
+  ) +
+  coord_sf(crs = st_crs(laea_europe)) +
+  guides(fill = "none") +
+  theme_void(base_size = 11) +
+  theme(
+    plot.background = element_rect(fill = "white", color = NA),
+    panel.background = element_rect(fill = water_fill, color = NA),
+    plot.title   = element_text(face = "bold", size = 14, color = "#0B132B"),
+    plot.subtitle= element_text(size = 10.5, color = "#334155"),
+    plot.caption = element_text(size = 8.5, color = "#6B7280", margin = margin(t = 6)),
+    plot.margin  = margin(8, 12, 8, 12))
+```
+-->
+
+
+```{=html}
+<div class="sponsor-table">
+  <div class="sponsor-row">
+    <div class="sponsor-image">
+      <img src="../data/Logos/MUB.png" alt="Medical University of Bialystok" />
+    </div>
+    <div class="sponsor-info">
+      <a href="https://www.umb.edu.pl/en/" target="_blank" rel="noopener noreferrer">
+        <h2>Medical University of Bialystok</h2>
+      </a>
+      <p>Contact person: Michał Burdukiewicz</p>
+      <p>Email Adress: michal.burdukiewicz@umb.edu.pl</p>
+      <p>Website: <a href="https://biogenies.info/">Click here</a></p>
+      <p>Contact person: Anna Moniuszko-Malinowska</p>
+      <p>Email Adress: neuroin@umb.edu.pl</p>
+      <p>Website: <a href="https://ppm.umb.edu.pl/info/author/UMBfa47fc56afab42b79412cddb581169ee/Profil+osoby+%25E2%2580%2593+Anna+Moniuszko-Malinowska+%25E2%2580%2593+Uniwersytet+Medyczny+w+Bia%25C5%2582ymstoku+title?ps=20&lang=pl&pn=1&cid=89140">Click here</a></p>
+    </div>
+  </div>
+
+  <div class="sponsor-row">
+    <div class="sponsor-image">
+      <img src="../data/Logos/RH.png" alt="Rigshospitalet" />
+    </div>
+    <div class="sponsor-info">
+      <a href="https://www.rigshospitalet.dk/english/Pages/default.aspx" target="_blank" rel="noopener noreferrer">
+        <h2>Rigshospitalet</h2>
+      </a>
+      <p>Contact person: Anne-Mette Lebech</p>
+      <p>Email Adress: Anne-Mette.Lebech@regionh.dk</p>
+      <p>Website: <a href="https://www.rigshospitalet.dk/">Click here</a></p>
+    </div>
+  </div>
+
+  <div class="sponsor-row">
+    <div class="sponsor-image">
+      <img src="../data/Logos/FUB.png" alt="Freie Universität Berlin" />
+    </div>
+    <div class="sponsor-info">
+      <a href="https://www.fu-berlin.de/" target="_blank" rel="noopener noreferrer">
+        <h2>Freie Universität Berlin</h2>
+      </a>
+      <p>Contact person: Ard Nijhof</p>
+      <p>Email Adress: ard.nijhof@fu-berlin.de</p>
+      <p>Website: <a href="https://www.vetmed.fu-berlin.de/einrichtungen/zfi/we13/index.html">Click here</a></p>
+    </div>
+  </div>
+
+  <div class="sponsor-row">
+    <div class="sponsor-image">
+      <img src="../data/Logos/BC.png" alt="Biological Centre" />
+    </div>
+    <div class="sponsor-info">
+      <a href="https://www.bc.cas.cz/" target="_blank" rel="noopener noreferrer">
+        <h2>Biology Centre of the Czech Academy of Sciences</h2>
+      </a>
+      <p>Contact person: Václav Hönig</p>
+      <p>Email Adress: honig@paru.cas.cz</p>
+      <p>Website: <a href="https://www.paru.cas.cz/en/staff/profile/48-vaclavhonig/">Click here</a></p>
     </div>
   </div>
 
