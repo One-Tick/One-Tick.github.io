@@ -23,6 +23,14 @@ jobs:
             libgeos-dev \
             libproj-dev \
             libudunits2-dev \
+            pkg-config \
+            libfreetype6-dev \
+            libfontconfig1-dev \
+            libmagick++-dev \
+            libssl-dev \
+            libtiff-dev \
+            libjpeg-dev
+            
             
 
       - name: Setup R
