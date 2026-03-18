@@ -21,17 +21,52 @@ jobs:
         with:
           use-public-rspm: true
 
+      - name: Install Linux system libraries for R packages
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            libcurl4-openssl-dev \
+            libssl-dev \
+            libxml2-dev \
+            libfontconfig1-dev \
+            libfreetype6-dev \
+            libfribidi-dev \
+            libharfbuzz-dev \
+            libpng-dev \
+            libjpeg-dev \
+            libtiff-dev \
+            libwebp-dev \
+            libmagick++-dev \
+            libudunits2-dev \
+            libgdal-dev \
+            gdal-bin \
+            libgeos-dev \
+            libproj-dev \
+            proj-data \
+            proj-bin \
+            sqlite3 \
+            libsqlite3-dev \
+            make \
+            g++ \
+            pkg-config
+
       - name: Setup R dependencies
         uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          # Keep dependencies minimal for current active R chunks.
+          # Packages required by active Quarto R chunks in subsites/consortium.qmd.
           extra-packages: |
             any::knitr
             any::rmarkdown
             any::leaflet
             any::base64enc
-            any::rnaturalearthhires
-          cache-version: 1
+            any::sf
+            any::dplyr
+            any::ggplot2
+            any::ggrepel
+            any::ggimage
+            any::rnaturalearth
+            github::ropensci/rnaturalearthhires
+          cache-version: 2
 
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
