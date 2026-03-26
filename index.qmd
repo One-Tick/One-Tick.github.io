@@ -120,7 +120,7 @@ Click on an institution's logo to visit its website.
 <img src="data/Logos/EU.png" alt="Funded by the European Union" style="max-width: 300px; height: auto;" />
 
 <p>Funded by the European Union (project 101236599). Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the REA. Neither the European Union nor the granting authority can be held responsible for them.</p>
-
+:::
 ::: text-box
 <div style="font-size: 0.8em; line-height: 1.4;">
 
