@@ -115,11 +115,20 @@ Click on an institution's logo to visit its website.
 
 ```
 :::
+::: text-box
+<h1>OneTick</h1>
+
+<img src="data/Logos/EU.png" alt="Funded by the European Union" style="max-width: 300px; height: auto;" />
+
+<p>Funded by the European Union (project 101236599). Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the REA. Neither the European Union nor the granting authority can be held responsible for them.</p>
+:::
 
 ::: text-box
+<div style="font-size: 0.9em; line-height: 1.5;">
+
 ![](data/Logos/plakat.png)
 
-<h1>Michał Burdukiewicz, Jarosław Chilimoniuk, and Anna Moniuszko-Malinowska receive
+<h1 style="font-size: 1.5em;">Michał Burdukiewicz, Jarosław Chilimoniuk, and Anna Moniuszko-Malinowska receive
 funding in the PARP Eurogrant Competition</h1>
 
 <p>A project led by Dr. Michał Burdukiewicz and Dr. Jarosław Chilimoniuk from the
