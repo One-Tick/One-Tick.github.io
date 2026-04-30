@@ -238,7 +238,7 @@ ggplot() +
         <h2>iBio Science</h2>
       </a>
       <p>Contact person: Robert Dudas</p>
-      <p>Email Adress: dudas.robert@ibioscience.hu</p>
+      <p>Email Adress: anna.moniuszko-malinowska@umb.edu.pl</p>
       <p>Website: <a href="">Click here</a></p>
     </div>
   </div>
