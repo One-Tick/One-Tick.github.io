@@ -32,6 +32,8 @@ website:
             href: subsites/packagefour.qmd
           - text: Work Package 5
             href: subsites/packagefive.qmd
+          - text: Work Package 6
+            href: subsites/packagesix.qmd
       - text: News
         href: subsites/news.qmd
       - text: Events
